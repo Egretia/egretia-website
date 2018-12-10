@@ -1,0 +1,264 @@
+/* 主题背景色 */
+.headerGolle{
+  background: rgb(240,242,245);
+  width: 100%;
+  overflow: hidden;
+}
+@media screen and (min-width:769px){ 
+  .navBJ{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
+    height: 60px;
+  }
+  /* logo图标区域 */
+  .navHeader{
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  .header{
+    width: 100%;
+    overflow: hidden;
+  }
+  .header>.logoBJ{
+    width: 20%;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    text-align: left;
+  }
+  .header>.logoBJ>img{
+    width: 38%;
+    vertical-align:text-bottom ;
+  }
+  /* 导航栏部分 */
+  .header>ul{
+    width: 80%;
+    overflow: hidden;
+    float: right;
+  }
+  .header>ul>li{
+    /* width: 10%; */
+    float: right;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    box-sizing: border-box;
+    margin-left: 5%;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .ActiveFontWi{
+    font-weight: bold !important;
+  }
+  .header>ul>li>a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+  }
+  .header>ul>li.selectClick>a{
+    color: #FAC568;
+  }
+  .header>ul>li:hover>a{
+    color: #FAC568;
+  } 
+  .header>ul>li:first-child{
+    width: 77px;
+    margin-left: 3%;
+  }
+  .header>ul>li:first-child:hover{
+    height: 160px;
+    background:rgba(3,14,17,0.35);
+    border-radius:0px 0px 3px 3px;
+  }
+  /* 语言展示切换 */
+  .toggleLang{
+    position: absolute;
+    width: 70px;
+    overflow: hidden;
+    top: 50px;
+    left: 0;
+    z-index: 10;
+  }
+  .toggleLang>p{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .toggleLang>p:hover{
+    color: #FAC568;
+  }
+  .Contractionbar,.zhezhao,.closeZhezhao{
+    display: none;
+  }
+}
+
+
+/*移动端适配代码*/
+@media screen and (max-width:768px){ 
+  body,html{
+    font-size: 62.5%;
+  }
+  .navBJ{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
+    height: 60px;
+  }
+  /* logo图标区域 */
+  .navHeader{
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  .header{
+    width: 100%;
+    overflow: hidden;
+  }
+  .header>.logoBJ{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+  }
+  .header>.logoBJ>img{
+    width: 20%;
+    vertical-align:middle ;
+  }
+  /* 导航栏部分 */
+  .closeZhezhao>ul,.header>ul{
+    width: 35%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index : 10000;
+    background: rgba(12,62,99,0.5);
+    display: none;
+  }
+  .closeZhezhao>ul>li{
+    width: 100%;
+    height: 6rem;
+    text-align: center;
+    line-height: 6rem;
+    box-sizing: border-box;
+    position: absolute;
+    top: 36rem;
+    left: 0;
+  }
+  .closeZhezhao>ul>li:nth-child(2){
+    top: 33rem;
+  }
+  .closeZhezhao>ul>li:nth-child(3){
+    top: 28rem;
+  }
+  .closeZhezhao>ul>li:nth-child(4){
+    top: 23rem;
+  }
+  .closeZhezhao>ul>li:nth-child(5){
+    top: 18rem;
+  }
+  .closeZhezhao>ul>li:nth-child(6){
+    top: 13rem;
+  }
+  .closeZhezhao>ul>li:nth-child(7){
+    top: 8rem;
+  }
+  .closeZhezhao>ul>li:nth-child(8){
+    top: 3rem;
+  }
+  .closeZhezhao>ul>li>a{
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .closeZhezhao>ul>li.selectClick>a{
+    color: #FAC568;
+  }
+  .closeZhezhao>ul>li:hover>a{
+    color: #FAC568;
+  } 
+  .closeZhezhao>ul>li:first-child{
+    height: 160px;
+  }
+  .closeZhezhao>ul>li:first-child>a{
+    color: rgba(0, 0, 0, 0);
+  }
+  /* 语言展示切换 */
+  .toggleLang{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    top: 50px;
+    left: 0;
+    z-index: 10;
+  }
+  .toggleLang>p{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .toggleLang>p:hover{
+    color: #FAC568;
+  }
+  .Contractionbar{
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+    width: 2rem;
+    height: 2rem;
+    z-index: 10000;
+  }
+  .Contractionbar>img{
+    width: 80%;
+  }
+  .zhezhao{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.2);
+    z-index : 1000;
+    display: none;
+  }
+  .closeZhezhao{
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 100000;
+    display: none;
+  }
+  .closeZhezhao>p{
+    font-size: 4rem;
+    color: #fff;
+    height: 5rem;
+    position: absolute;
+    top: 0rem;
+    right: 1rem;
+    z-index: 1000000;
+  }
+}

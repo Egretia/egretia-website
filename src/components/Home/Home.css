@@ -1,0 +1,541 @@
+/*PC端适配代码*/
+@media screen and (min-width:769px){ 
+		.bannerBJ{
+			width: 100%;
+			overflow: hidden;
+			background: url("./img/navBJ.png") no-repeat;
+			background-size: 100% 80%;
+			/* height: 900px; */
+		}
+		.EgretiaContain{
+			width: 100%;
+			overflow: hidden;
+			padding: 120px 0 120px 0;
+			background: url('./img/homeKV.png') no-repeat right 120px;
+			background-size: 60%;
+			text-align: left;
+			position: relative;
+			z-index: 3;
+		}
+		.RCcontain{
+			margin-top: 200px;
+			width: 100%;
+			overflow: hidden;
+		}
+		.RCcontain>h1{
+			color: #fff;
+			font-size: 70px;
+			padding-bottom: 40px;
+			height: 70px;
+		}
+		.RCcontain>h1>span{
+			font-size: 35px;
+			color: #fff;
+		}
+		.RCcontain>p{
+			color: #fff;
+			height: 30px;
+			line-height: 30px;
+			font-size: 18px;
+		}
+		/* 立即下载 最新功能 */
+		.DownloadImmediately{
+			margin-top: 40px;
+			width: 100%;
+			overflow: hidden;
+		}
+		.DownloadImmediately>p,.DownloadImmediately>h3{
+			width: 200px;
+			height: 44px;
+			line-height: 44px;
+			text-align: center;
+			background:rgba(255,255,255,1);
+			border-radius:10px;
+			box-sizing: border-box;
+			color: #00A4E5;
+			font-size: 16px;
+			float: left;
+			cursor: pointer;
+		}
+		.DownloadImmediately>p>a{
+			color: #00A4E5;
+		}
+		.DownloadImmediately>h3{
+			margin-left: 30px;
+			line-height: 40px;
+			background: rgba(0, 0, 0, 0);
+			border:2px solid rgba(255,255,255,1);
+			color: #fff;
+		}
+		/* 星球展示 */
+		.starBalls>.starBall:nth-child(2){
+			width:61px;
+			height:61px;
+			background:linear-gradient(-180deg,rgba(0,145,254,1),rgba(141,223,230,1));
+			left: 30%;
+			top: 180px;
+		}
+		.starBalls>.starBall:nth-child(3){
+			width:31px;
+			height:31px;
+			left: 65%;
+			top: 240px;
+		}
+		.starBalls>.starBall:nth-child(4){
+			width:121px;
+			height:121px;
+			left: 35%;
+			top: 560px;
+		}
+		.starBalls>.starBall:nth-child(5){
+			width:51px;
+			height:51px;
+			left: 90%;
+			top: 700px;
+		}
+		.starBall{
+			width:212px;
+			height:212px;
+			background:linear-gradient(-180deg,rgba(0,145,254,1),rgba(141,223,230,1));
+			border-radius: 50%;
+			position: absolute;
+			left: 0;
+			top: 500px;
+			/* -webkit-animation: spin 4s linear 1s 5 alternate;
+			animation: spin 4s linear infinite; */
+		}
+
+		/* 旋转动画 */
+		@-webkit-keyframes spin {
+			from {
+				-webkit-transform: rotate(0deg);
+			}
+			to {
+				-webkit-transform: rotate(360deg);
+			}
+		}
+		
+		@keyframes spin {
+			from {
+				transform: rotate(0deg);
+			}
+			to {
+				transform: rotate(360deg);
+			}
+		}
+
+		/* 工作流列表展示 */
+		.workflow{
+			overflow: hidden;
+			width: 900px;
+			margin:  0 auto;
+			margin-top: 260px;
+		}
+		.workflow>ul{
+			width: 100%;
+			overflow: hidden;
+		}
+		.workflow>ul>li{
+			width: 21%;
+			float: left;
+			overflow: hidden;
+			margin-left: 5%;
+			background:rgba(255,255,255,1);
+			box-shadow:0px 2px 13px 0px rgba(0,0,0,0.05);
+			border-radius:5px;
+			height: 300px;
+		}
+		.workflow>ul>li:first-child{
+			margin: 0;
+		}
+		.workflow>ul>li>p{
+			width: 100%;
+			height: 120px;
+			text-align: center;
+			position: relative;
+		}
+		.workflow>ul>li>p>img{
+			width: 30%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateY(-50%) translateX(-50%);
+		}
+		.workflow>ul>li>h3{
+			color: #28647B;
+			width: 100%;
+			font-size: 20px;
+			text-align: center;
+		}
+		.workflow>ul>li>h3>span{
+			color: #28647B;
+			font-size: 30px;
+		}
+		.workflow>ul>li>h4{
+			width: 84%;
+			margin: 10px 8% 0 8%;
+			color: #6892A2;
+			font-size: 14px;
+			text-align: center;
+			padding-bottom: 30px;
+		}
+		/* 第一个阴影部分 */
+		.firstShadow{
+			width: 60%;
+			position: absolute;
+			top: 400px;
+			left: 0;
+		}
+		.firstShadow>img{
+			width: 1100px;
+		}
+
+		/* 浮动呼吸动画 */
+		.FathAnim{
+			width: 100%;
+			overflow: hidden;
+			position: relative;
+		}
+		.FloatAnimate{
+			width: 40px;
+			height: 80px;
+			background: url("./img/floatK.png") no-repeat left top;
+			background-size: 30px;
+			position: absolute;
+			left: 585px;
+			top: 240px;
+		}
+		.EgretiaContain>.FloatAnimate:nth-child(3){
+			background: url("./img/FloatR.png") no-repeat left top;
+			background-size: 30px;
+			left: 884px;
+			top: 420px;
+		}
+		.EgretiaContain>.FloatAnimate:nth-child(4){
+			background: url("./img/FloatHuxi1.png") no-repeat left top;
+			background-size: 38px;
+			width: 60px;
+			left: 748px;
+			top: 232px;
+			height: 170px;
+			z-index: 2;
+			opacity: 0.1;
+			animation: index_txt_hide 0.6s linear infinite forwards alternate;
+			-webkit-animation: index_txt_hide 0.6s linear infinite forwards alternate;
+		}
+		.EgretiaContain>.FloatAnimate:nth-child(5){
+			background: url("./img/FloatHuxi1.png") no-repeat left top;
+			background-size: 38px;
+			width: 60px;
+			left: 894px;
+			top: 150px;
+			height: 170px;
+			z-index: 2;
+			opacity: 0.1;
+			animation: index_txt_hide 0.6s linear infinite forwards alternate;
+			-webkit-animation: index_txt_hide 0.6s linear infinite forwards alternate;
+		}
+		.EgretiaContain>.FloatAnimate:nth-child(6){
+			background: url("./img/FloatHuxi1.png") no-repeat left top;
+			background-size: 38px;
+			width: 60px;
+			left: 586px;
+			top: 174px;
+			height: 170px;
+			z-index: 2;
+			opacity: 0.1;
+			animation: index_txt_hide 0.6s linear infinite forwards alternate;
+			-webkit-animation: index_txt_hide 0.6s linear infinite forwards alternate;
+		}
+		.EgretiaContain>.FloatAnimate:nth-child(7){
+			background: url("./img/FloatHuxi1.png") no-repeat left top;
+			background-size: 38px;
+			width: 60px;
+			left: 880px;
+			top: 336px;
+			height: 170px;
+			z-index: 2;
+			opacity: 0.1;
+			animation: index_txt_hide 0.6s linear infinite forwards alternate;
+			-webkit-animation: index_txt_hide 0.6s linear infinite forwards alternate;
+		}
+		/* 旋转动画 */
+		@keyframes index_txt_hide{
+			100%{opacity: 1;}
+		}
+		@-webkit-keyframes index_txt_hide{
+			100%{opacity: 1;}
+		}
+}
+
+
+/*移动端适配代码*/
+@media screen and (max-width:768px){ 
+	.bannerBJ{
+		width: 100%;
+		overflow: hidden;
+		background: url("./img/navBJ1.png") no-repeat;
+		background-size: 100% 58%;
+	}
+	.EgretiaContain{
+		width: 100%;
+		overflow: hidden;
+		/* padding: 120px 0 120px 0; */
+		background: url('./img/homeTV1.png') no-repeat;
+		background-size: 100%;
+		background-position-y: 8rem;
+		position: relative;
+		z-index: 3;
+	}
+	.RCcontain{
+		margin-top: 32rem;
+		width: 100%;
+		overflow: hidden;
+	}
+	.RCcontain>h1{
+		color: #fff;
+		font-size: 3.4rem;
+		height: 4rem;
+		text-align: left;
+	}
+	.RCcontain>h1>span{
+		font-size: 1.8rem;
+		color: #fff;
+	}
+	.RCcontain>p{
+		color: #fff;
+		height: 2rem;
+		line-height: 2rem;
+		font-size: 1.6rem;
+		text-align: left;
+	}
+	/* 立即下载 最新功能 */
+	.DownloadImmediately{
+		margin-top: 6rem;
+		width: 100%;
+		overflow: hidden;
+	}
+	.DownloadImmediately>p,.DownloadImmediately>h3{
+		width: 60%;
+		height: 4rem;
+		line-height: 3.6rem;
+		text-align: center;
+		background:rgba(255,255,255,1);
+		border-radius:10px;
+		box-sizing: border-box;
+		color: #00A4E5;
+		font-size: 16px;
+		cursor: pointer;
+		margin: 0 auto;
+		border-radius:10px;
+		border:2px solid rgba(0,145,254,1);
+		margin-top: 2rem
+	}
+	.DownloadImmediately>p>a{
+		color: #00A4E5;
+	}
+	.DownloadImmediately>h3{
+		/* line-height: 40px;
+		background: rgba(0, 0, 0, 0);
+		border:2px solid rgba(255,255,255,1);
+		color: #fff; */
+	}
+	/* 星球展示 */
+	/* .starBalls>.starBall:nth-child(2){
+		width:61px;
+		height:61px;
+		background:linear-gradient(-180deg,rgba(0,145,254,1),rgba(141,223,230,1));
+		left: 30%;
+		top: 180px;
+	}
+	.starBalls>.starBall:nth-child(3){
+		width:31px;
+		height:31px;
+		left: 65%;
+		top: 240px;
+	}
+	.starBalls>.starBall:nth-child(4){
+		width:121px;
+		height:121px;
+		left: 35%;
+		top: 560px;
+	}
+	.starBalls>.starBall:nth-child(5){
+		width:51px;
+		height:51px;
+		left: 90%;
+		top: 700px;
+	}
+	.starBall{
+		width:212px;
+		height:212px;
+		background:linear-gradient(-180deg,rgba(0,145,254,1),rgba(141,223,230,1));
+		border-radius: 50%;
+		position: absolute;
+		left: 0;
+		top: 500px;
+	} */
+
+	/* 旋转动画 */
+	/* @-webkit-keyframes spin {
+		from {
+			-webkit-transform: rotate(0deg);
+		}
+		to {
+			-webkit-transform: rotate(360deg);
+		}
+	}
+	
+	@keyframes spin {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(360deg);
+		}
+	} */
+
+	/* 工作流列表展示 */
+	.workflow{
+		overflow: hidden;
+		width: 100%;
+		margin-top: 3rem;
+	}
+	.workflow>ul{
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.workflow>ul>li{
+		width: 100%;
+		overflow: hidden;
+		margin-top: 2rem;
+		/* height: 250px; */
+	}
+	.workflow>ul>li>p{
+		width: 20%;
+		height: 6rem;
+		text-align: center;
+		position: relative;
+		float: left;
+	}
+	.workflow>ul>li>p>img{
+		width: 60%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+	}
+	.workflow>ul>li>h3{
+		color: #28647B;
+		width: 40%;
+		font-size: 1.4rem;
+		text-align: center;
+		float: left;
+		height: 6rem;
+		line-height: 6rem;
+	}
+	.workflow>ul>li>h3>span{
+		color: #28647B;
+		font-size: 2rem;
+		font-weight: bold;
+	}
+	.workflow>ul>li>h4{
+		width:40%;
+		color: #6892A2;
+		font-size: 1.2rem;
+		text-align: left;
+		float: left;
+		margin-top: 1rem;
+	}
+	.workflow>ul>li:nth-child(3)>h4,.workflow>ul>li:nth-child(4)>h4{
+		margin-top: 1.8rem;
+	}
+	/* 第一个阴影部分 */
+	.firstShadow{
+		width: 60%;
+		position: absolute;
+		top: 400px;
+		left: 0;
+	}
+	.firstShadow>img{
+		width: 20%;
+	}
+
+	/* 浮动呼吸动画 */
+	/* .FathAnim{
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+	}
+	.FloatAnimate{
+		width: 40px;
+		height: 80px;
+		background: url("./img/floatK.png") no-repeat left top;
+		background-size: 30px;
+		position: absolute;
+		left: 585px;
+		top: 240px;
+	}
+	.EgretiaContain>.FloatAnimate:nth-child(3){
+		background: url("./img/FloatR.png") no-repeat left top;
+		background-size: 30px;
+		left: 884px;
+		top: 420px;
+	}
+	.EgretiaContain>.FloatAnimate:nth-child(4){
+		background: url("./img/FloatHuxi1.png") no-repeat left top;
+		background-size: 38px;
+		width: 60px;
+		left: 748px;
+		top: 232px;
+		height: 170px;
+		z-index: 2;
+		opacity: 0.1;
+		animation: index_txt_hide 0.6s linear infinite forwards alternate;
+		-webkit-animation: index_txt_hide 0.6s linear infinite forwards alternate;
+	}
+	.EgretiaContain>.FloatAnimate:nth-child(5){
+		background: url("./img/FloatHuxi1.png") no-repeat left top;
+		background-size: 38px;
+		width: 60px;
+		left: 894px;
+		top: 150px;
+		height: 170px;
+		z-index: 2;
+		opacity: 0.1;
+		animation: index_txt_hide 0.6s linear infinite forwards alternate;
+		-webkit-animation: index_txt_hide 0.6s linear infinite forwards alternate;
+	}
+	.EgretiaContain>.FloatAnimate:nth-child(6){
+		background: url("./img/FloatHuxi1.png") no-repeat left top;
+		background-size: 38px;
+		width: 60px;
+		left: 586px;
+		top: 174px;
+		height: 170px;
+		z-index: 2;
+		opacity: 0.1;
+		animation: index_txt_hide 0.6s linear infinite forwards alternate;
+		-webkit-animation: index_txt_hide 0.6s linear infinite forwards alternate;
+	}
+	.EgretiaContain>.FloatAnimate:nth-child(7){
+		background: url("./img/FloatHuxi1.png") no-repeat left top;
+		background-size: 38px;
+		width: 60px;
+		left: 880px;
+		top: 336px;
+		height: 170px;
+		z-index: 2;
+		opacity: 0.1;
+		animation: index_txt_hide 0.6s linear infinite forwards alternate;
+		-webkit-animation: index_txt_hide 0.6s linear infinite forwards alternate;
+	} */
+	/* 旋转动画 */
+	@keyframes index_txt_hide{
+		100%{opacity: 1;}
+	}
+	@-webkit-keyframes index_txt_hide{
+		100%{opacity: 1;}
+	}
+}

@@ -1,2 +1,1 @@
-# egretia-website
 egretia-website

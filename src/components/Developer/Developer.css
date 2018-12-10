@@ -1,0 +1,587 @@
+/*PC端适配代码*/
+@media screen and (min-width:769px){ 
+    .bannerBJ{
+        width: 100%;
+        overflow: hidden;
+        background: url("../Product/img/navBJ.png") no-repeat;
+        background-size: 100% 90%;
+        height: 600px;
+        position: relative;
+    }
+    .Moon{
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        z-index: 10;
+    }
+    .Moon>p{
+        overflow: hidden;
+        width: 635px;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 60px;
+        background: url('./img/fours.png') no-repeat left center;
+        background-size: 100% 54px;
+    }
+    .Moon>p>span{
+        display: block;
+        width: 310px;
+        float: left;
+        text-align: left;
+    }
+    .Moon>p>span:first-child{
+        font-size: 70px;
+    }
+    /* 产品列表 */
+    .ProductLists,.EgretiaIntroduction{
+        width: 1080px;
+        overflow: hidden;
+        position: relative;
+        z-index: 5;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .EgretiaIntroduction{
+        margin-top: 100px;
+    }
+    .fatherP>h3,.EgretiaIntroduction>h3{
+        height:80px;
+        font-size:30px;
+        color:rgba(40,100,123,1);
+        line-height:80px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .ProductLists>h4{
+        margin: 0 auto;
+        width: 800px;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .ProductLists>h4>img{
+        width: 100%;
+    }
+    .ProductLists>ul,.EgretiaIntroduction>ul,.EgretiaIntroduction>p{
+        width: 800px;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-top: 40px;
+    }
+    .EgretiaIntroduction>ul{
+        padding-bottom: 350px;
+    }
+    .EgretiaIntroduction>p{
+        margin-top: 40px;
+        padding-bottom: 350px;
+        display: none;
+    }
+    .EgretiaIntroduction>p>span{
+        display: inline-block;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        color: #28647B;
+    }
+    .EgretiaIntroduction>p>img{
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        vertical-align: middle;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .EgretiaIntroduction>ul{
+        margin-top: 0;
+    }
+    .ProductList{
+        width: 25%;
+        float: left;
+        overflow: hidden;
+    }
+    .ProductList>p{
+        width: 50px;
+        height: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .ProductList>p>img{
+        width: 40%;
+        vertical-align: bottom;
+    }
+    .ProductList>h3{
+        width: 100%;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        color: #00A4E4;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .ProductList>h3:hover{
+        color: #FAC568;
+    }
+    /* Egretia入门 */
+    .EgretiaIntroductionList{
+        width: 47%;
+        margin-left: 6%;
+        float: left;
+        overflow: hidden;
+        background: url('./img/EgretiaBJ1.png') no-repeat left top;
+        background-size: 100% 100%;
+        margin-top: 30px;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(2){
+        background: url('./img/EgretiaBJ2.png') no-repeat left top;
+        background-size: 100% 100%;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(3){
+        background: url('./img/EgretiaBJ3.png') no-repeat left top;
+        background-size: 100% 100%;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(4){
+        background: url('./img/EgretiaBJ4.png') no-repeat left top;
+        background-size: 100% 100%;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:first-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(3){
+        margin-left: 0;
+    }
+    .EgretiaIntroductionList>h3{
+        /* width: 100%; */
+        text-align: center;
+        color: #6892A2;
+        font-size: 16px;
+        height: 20px;
+        line-height: 20px;
+        cursor: pointer;
+        margin-top: 40px;
+    }
+    .EgretiaIntroductionList>pre{
+        display: block;
+        width: 100%;
+        line-height: 20px;
+        font-size: 12px;
+        color: #6892A2;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .EgretiaIntroductionList>h3:hover{
+        color: #FAC568;
+    }
+    .EgretiaIntroductionList>p{
+        width: 100%;
+        text-align: center;
+        height: 230px;
+        line-height: 230px;
+        margin-top: 10px;
+    }
+    .EgretiaIntroductionList>p>img{
+        width: 62%;
+        vertical-align: middle;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(4)>p>img{
+        width: 82%;
+    }
+    
+    /* 各种背景位置控制 */
+    .posBJ{
+        background: url("../Home/img/firstShadow.png") no-repeat left top;
+        width: 60%;
+        height: 1000px; 
+        position: absolute;
+        top: 400px;
+        z-index: 2;
+        background-size: 100% 100%;
+    }
+    .ControlF>.posBJ:nth-child(2){
+        background: url("../Home/img/xuxianLeft.png") no-repeat left top;
+        top: 900px;
+        background-size: 100% 100%;
+        z-index: 3;
+    }
+    .ControlF>.posBJ:nth-child(3){
+        background: url("../Home/img/rightShabox.png") no-repeat right top;
+        top: 1000px;
+        right: 0;
+        background-size: 100% 100%;
+    } 
+    .ControlF>.posBJ:nth-child(4){
+        background: url("../Team/img/bangeBall.png") no-repeat left top;
+        background-size: 460px 100%;
+        height: 460px;
+        top: 2100px;
+    } 
+    /* 各个球球位置 */
+    .posBall{
+        background: url("../Product/img/Ball6.png") no-repeat left top;
+        height: 200px;
+        width: 1080px;
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+    .BallF>.posBall:nth-child(1){
+        background: url("../Product/img/Ball6.png") no-repeat left top;
+        background-size: 160px;
+    }
+    .BallF>.posBall:nth-child(2){
+        background: url("../Product/img/Ball2.png") no-repeat left top;
+        background-position-x: 400px;
+        top: 270px;
+    }
+    .BallF>.posBall:nth-child(3){
+        background: url("../Product/img/Ball3.png") no-repeat left top;
+        background-size: 80px;
+        background-position-x: 280px;
+        top: 440px;
+    }
+    .BallF>.posBall:nth-child(4){
+        background: url("../Product/img/Ball_blue1.png") no-repeat left top;
+        background-size: 30px;
+        background-position-x: 660px;
+        top: 130px;
+    }
+    .BallF>.posBall:nth-child(5){
+        background: url("../Product/img/Ball_blue1.png") no-repeat left top;
+        background-position-x: 840px;
+        background-size: 80px;
+        top: 230px;
+    }
+    .BallF>.posBall:nth-child(6){
+        background: url("../Product/img/Ball5.png") no-repeat left top;
+        background-size:100px;
+        background-position-x: 960px;
+        top: 320px;
+    }
+    .BallF>.posBall:nth-child(7){
+        background: url("../Product/img/yellow_shixin.png") no-repeat left top;
+        background-size: 30px;
+        background-position-x: 840px;
+        top: 480px;
+    }
+    .BallF>.posBall:nth-child(8){
+        background: url("../Product/img/yellow_shixin.png") no-repeat left top;
+        background-position-x: 340px;
+        background-size: 16px;
+        top: 694px;
+    }
+    .BallF>.posBall:nth-child(9){
+        background: url("../Product/img/Ball_blue2.png") no-repeat left top;
+        background-size: 80px;
+        background-position-x: 1000px;
+        top: 850px;
+    }
+    .BallF>.posBall:nth-child(10){
+        background: url("../Product/img/yellow_shixin.png") no-repeat left top;
+        background-size: 40px;
+        background-position-x: 0;
+        top: 1380px;
+    }
+    .BallF>.posBall:nth-child(11){
+        background: url("../Product/img/Ball_yellow3.png") no-repeat left top;
+        background-position-x: 950px;
+        background-size: 130px;
+        top: 2100px;
+    }
+}
+
+
+/*移动端适配代码*/
+@media screen and (max-width:768px){ 
+    .bannerBJ{
+        width: 100%;
+        overflow: hidden;
+        background: url("./img/navBJ.png") no-repeat;
+        background-size: contain;
+        height: 300px;
+        position: relative;
+    }
+    .Moon{
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 46%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        z-index: 10;
+    }
+    .Moon>p{
+        overflow: hidden;
+        width: 100%;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 3rem;
+        background: url('./img/fours.png') no-repeat center center;
+        background-size: 100% 3rem;
+    }
+    .Moon>p>span{
+        display: block;
+        width:50%;
+        float: left;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 2%;
+    }
+    .Moon>p>span:first-child{
+        font-size:3.4rem;
+        padding-right: 2%;
+        box-sizing: border-box;
+        text-align: right;
+        padding-left: 0;
+    }
+    /* 产品列表 */
+    .ProductLists,.EgretiaIntroduction{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        z-index: 5;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .EgretiaIntroduction{
+        padding-bottom: 16rem;
+    }
+    .fatherP>h3,.EgretiaIntroduction>h3{
+        height:6rem;
+        font-size:2.2rem;
+        color:rgba(40,100,123,1);
+        line-height:6rem;
+        text-align: center;
+        /* padding-bottom: 20px; */
+    }
+    .ProductLists>h4{
+        margin: 0 auto;
+        width: 80%;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .ProductLists>h4>img{
+        width: 100%;
+    }
+    .ProductLists>ul,.EgretiaIntroduction>ul,.EgretiaIntroduction>p{
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .EgretiaIntroduction>ul{
+        padding-bottom: 350px;
+    }
+    .EgretiaIntroduction>p{
+        text-align: center;
+        margin-top: 40px;
+        padding-bottom: 350px;
+        display: none;
+    }
+    .EgretiaIntroduction>p>span{
+        display: block;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 12px;
+        color: #28647B;
+    }
+    .EgretiaIntroduction>p>img{
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        vertical-align: middle;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .EgretiaIntroduction>ul{
+        margin-top: 0;
+    }
+    .ProductList{
+        width: 50%;
+        float: left;
+        overflow: hidden;
+        margin-top: 3rem;
+    }
+    .ProductList>p{
+        width: 50px;
+        height: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .ProductList>p>img{
+        width: 40%;
+        vertical-align: bottom;
+        cursor: pointer;
+    }
+    .ProductList>h3{
+        width: 100%;
+        text-align: center;
+        height: 20px;
+        line-height: 20px;
+        color: #00A4E4;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    /* Egretia入门 */
+    .EgretiaIntroductionList{
+        width: 100%;
+        overflow: hidden;
+        background: url('./img/EgretiaBJ1.png') no-repeat left top;
+        background-size: 100% 100%;
+        margin-top: 30px;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(2){
+        background: url('./img/EgretiaBJ2.png') no-repeat left top;
+        background-size: 100% 100%;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(3){
+        background: url('./img/EgretiaBJ3.png') no-repeat left top;
+        background-size: 100% 100%;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(4){
+        background: url('./img/EgretiaBJ4.png') no-repeat left top;
+        background-size: 100% 100%;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:first-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(3){
+        margin-left: 0;
+    }
+    .EgretiaIntroductionList>h3{
+        text-align: center;
+        color: #6892A2;
+        font-size: 16px;
+        height: 20px;
+        line-height: 20px;
+        cursor: pointer;
+        margin-top: 40px;
+    }
+    .EgretiaIntroductionList>pre{
+        display: block;
+        width: 80%;
+        margin:  0 auto;
+        line-height: 20px;
+        font-size: 12px;
+        color: #6892A2;
+        text-align: center;
+        margin-top: 2rem;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+    .EgretiaIntroductionList>h3:hover{
+        color: #FAC568;
+    }
+    .EgretiaIntroductionList>p{
+        width: 100%;
+        text-align: center;
+        height: 230px;
+        line-height: 230px;
+        /* margin-top: 30px; */
+    }
+    .EgretiaIntroductionList>p>img{
+        width: 62%;
+        vertical-align: middle;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(4)>p>img{
+        width: 82%;
+    }
+    
+    /* 各种背景位置控制 */
+    /* .posBJ{
+        background: url("../Home/img/firstShadow.png") no-repeat left top;
+        width: 60%;
+        height: 100%; 
+        position: absolute;
+        top: 400px;
+        z-index: 2;
+        background-size: 100% 100%;
+    }
+    .ControlF>.posBJ:nth-child(2){
+        background: url("../Home/img/xuxianLeft.png") no-repeat left top;
+        top: 900px;
+        background-size: 100% 100%;
+        z-index: 3;
+    }
+    .ControlF>.posBJ:nth-child(3){
+        background: url("../Home/img/rightShabox.png") no-repeat right top;
+        top: 1000px;
+        right: 0;
+        background-size: 100% 100%;
+    } 
+    .ControlF>.posBJ:nth-child(4){
+        background: url("../Team/img/bangeBall.png") no-repeat left top;
+        background-size: 460px 100%;
+        height: 460px;
+        top: 2100px;
+    }  */
+    /* 各个球球位置 */
+    /* .posBall{
+        background: url("../Product/img/Ball6.png") no-repeat left top;
+        height: 200px;
+        width: 1080px;
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+    .BallF>.posBall:nth-child(1){
+        background: url("../Product/img/Ball6.png") no-repeat left top;
+        background-size: 160px;
+    }
+    .BallF>.posBall:nth-child(2){
+        background: url("../Product/img/Ball2.png") no-repeat left top;
+        background-position-x: 400px;
+        top: 270px;
+    }
+    .BallF>.posBall:nth-child(3){
+        background: url("../Product/img/Ball3.png") no-repeat left top;
+        background-size: 80px;
+        background-position-x: 280px;
+        top: 440px;
+    }
+    .BallF>.posBall:nth-child(4){
+        background: url("../Product/img/Ball_blue1.png") no-repeat left top;
+        background-size: 30px;
+        background-position-x: 660px;
+        top: 130px;
+    }
+    .BallF>.posBall:nth-child(5){
+        background: url("../Product/img/Ball_blue1.png") no-repeat left top;
+        background-position-x: 840px;
+        background-size: 80px;
+        top: 230px;
+    }
+    .BallF>.posBall:nth-child(6){
+        background: url("../Product/img/Ball5.png") no-repeat left top;
+        background-size:100px;
+        background-position-x: 960px;
+        top: 320px;
+    }
+    .BallF>.posBall:nth-child(7){
+        background: url("../Product/img/yellow_shixin.png") no-repeat left top;
+        background-size: 30px;
+        background-position-x: 840px;
+        top: 480px;
+    }
+    .BallF>.posBall:nth-child(8){
+        background: url("../Product/img/yellow_shixin.png") no-repeat left top;
+        background-position-x: 340px;
+        background-size: 16px;
+        top: 694px;
+    }
+    .BallF>.posBall:nth-child(9){
+        background: url("../Product/img/Ball_blue2.png") no-repeat left top;
+        background-size: 80px;
+        background-position-x: 1000px;
+        top: 850px;
+    }
+    .BallF>.posBall:nth-child(10){
+        background: url("../Product/img/yellow_shixin.png") no-repeat left top;
+        background-size: 40px;
+        background-position-x: 0;
+        top: 1380px;
+    }
+    .BallF>.posBall:nth-child(11){
+        background: url("../Product/img/Ball_yellow3.png") no-repeat left top;
+        background-position-x: 950px;
+        background-size: 130px;
+        top: 2100px;
+    } */
+}

@@ -1,0 +1,521 @@
+/*PC端适配代码*/
+@media screen and (min-width:769px){ 
+    .bannerBJ{
+        width: 100%;
+        overflow: hidden;
+        background: url("./img/navBJ.png") no-repeat;
+        height: 300px;
+        position: relative;
+        background-size: contain;
+    }
+    /* 核心团队 */
+    .teamList{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        z-index: 5;
+    }
+    .teamList>h3{
+        width: 100%;
+        height:40px;
+        font-size:30px;
+        color:rgba(40,100,123,1);
+        line-height:40px;
+        text-align: center;
+    }
+    .teamList>h3:nth-child(3){
+        margin-top: 120px;
+    }
+    .teamList>ul{
+        width: 100%;
+        overflow: hidden;
+        width: 900px;
+        margin: 0 auto;
+    }
+    .teamListClass{
+        width: 28%;
+        overflow: hidden;
+        float: left;
+        margin-left: 8%;
+        margin-top: 60px;
+        height: 400px;
+    }
+    .teamList>ul>li:first-child,.teamList>ul>li:nth-child(4){
+        margin-left: 0;
+    }
+    .teamListClass>h3{
+        width: 160px;
+        margin:  0 auto;
+        height: 160px;
+        background: url('./img/img1.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul>li:nth-child(2)>h3{
+        background: url('./img/img2.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul>li:nth-child(3)>h3{
+        background: url('./img/img3.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul>li:nth-child(4)>h3{
+        background: url('./img/img4.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul>li:nth-child(5)>h3{
+        background: url('./img/img5.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul:nth-child(4)>li.teamListClass:nth-child(1)>h3{
+        background: url('./img/img6.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul:nth-child(4)>li.teamListClass:nth-child(2)>h3{
+        background: url('./img/img7.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul:nth-child(4)>li.teamListClass:nth-child(3)>h3{
+        background: url('./img/img8.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul:nth-child(4)>li.teamListClass:nth-child(4)>h3{
+        background: url('./img/img9.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul:nth-child(2)>li.teamListClass:nth-child(1)>h4,.teamList>ul:nth-child(2)>li.teamListClass:nth-child(2)>h4{
+        display: block;
+    }
+    .teamList>ul:nth-child(4){
+        padding-bottom: 300px;
+    }
+    .teamListClass>p{
+        width: 100%;
+        height:30px;
+        font-size:18px;
+        color:rgba(40,100,123,1);
+        line-height:30px;
+        margin-top: 10px;
+    }
+    .teamListClass>h4{
+        width: 100%;
+        height:20px;
+        font-size:14px;
+        color:rgba(40,100,123,1);
+        line-height:20px;
+        display: none;
+    }
+    .teamListClass>h5{
+        width: 100%;
+        height:20px;
+        line-height:20px;
+        margin-top: 6px;
+    }
+    .teamListClass>h5>img{
+        width: 6%;
+        margin-left: 10px;
+        display: none;
+    }
+    .teamList>ul:nth-child(4)>li.teamListClass>h5{
+        display: none;
+    }
+    .teamListClass>h5>img:first-child{
+        margin-left: 0px;
+        display: block;
+        margin:  0 auto;
+        cursor: pointer;
+    }
+    .teamListClass>h6{
+        width: 100%;
+        font-size:12px;
+        color:rgba(40,100,123,1);
+        line-height:20px;
+    }
+    /* 加入Egretia */
+    .JoinEgretia{
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 400px;
+        margin-top: 100px;
+        position: relative;
+        z-index: 10;
+    }
+    .JoinEgretia>h3{
+        height:100px;
+        font-size:30px;
+        color:rgba(40,100,123,1);
+        line-height:100px;
+    }
+    .JoinEgretia>p{
+        height:34px;
+        font-size:14px;
+        color:#fff;
+        background:rgba(0,164,229,1);
+        border-radius:10px;
+        width: 240px;
+        line-height: 34px;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+
+    /* 各种背景位置控制 */
+    .posBJ{
+        background: url("../Home/img/firstShadow.png") no-repeat left top;
+        width: 60%;
+        height: 1000px; 
+        position: absolute;
+        top: 400px;
+        z-index: 2;
+        background-size: 100% 100%;
+    }
+    .ControlF>.posBJ:nth-child(2){
+        background: url("../Home/img/xuxianLeft.png") no-repeat left top;
+        top: 900px;
+        background-size: 100% 100%;
+        z-index: 3;
+    }
+    .ControlF>.posBJ:nth-child(3){
+        background: url("../Home/img/rightShabox.png") no-repeat right top;
+        top: 1000px;
+        right: 0;
+        background-size: 100% 100%;
+    }
+    /* 各个球球位置 */
+    .posBall{
+        background: url("../Product/img/Ball6.png") no-repeat left top;
+        height: 200px;
+        width: 1080px;
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+    .BallF>.posBall:nth-child(2){
+        background: url("../Product/img/Ball2.png") no-repeat left top;
+        background-position-x: 250px;
+        top: 70px;
+    }
+    .BallF>.posBall:nth-child(3){
+        background: url("../Product/img/Ball_blue1.png") no-repeat left top;
+        background-position-x: 800px;
+        background-size: 40px;
+        top: 100px;
+    }
+    .BallF>.posBall:nth-child(4){
+        width: 100%;
+        right: 0;
+        background: url("../Product/img/Ball_blue4.png") no-repeat right top;
+        background-size: 200px;
+        top: 130px;
+    }
+    .BallF>.posBall:nth-child(5){
+        background: url("./img/Ball_yellow2.png") no-repeat left top;
+        background-position-x: 455px;
+        background-size: 40px;
+        top: 288px;
+    }
+    .BallF>.posBall:nth-child(6){
+        background: url("./img/Ball_yellow1.png") no-repeat left top;
+        background-position-x: 605px;
+        top: 318px;
+    }
+    .BallF>.posBall:nth-child(7){
+        background: url("../Product/img/Ball_blue3.png") no-repeat left top;
+        background-position-x: 50px;
+        top: 750px;
+    }
+    .BallF>.posBall:nth-child(8){
+        background: url("./img/Ball_yellow1.png") no-repeat left top;
+        background-position-x: 470px;
+        background-size: 20px;
+        top: 885px;
+    }
+    .BallF>.posBall:nth-child(9){
+        background: url("./img/Ball_yellow2.png") no-repeat left top;
+        background-position-x: 560px;
+        top: 855px;
+    }
+    .BallF>.posBall:nth-child(10){
+        background: url("../Product/img/Ball_blue4.png") no-repeat right top;
+        height: 300px;
+        background-size: 200px;
+        top: 1670px;
+    }
+    .BallF>.posBall:nth-child(11){
+        background: url("./img/Ball_yellow4.png") no-repeat left top;
+        background-size: 40px;
+        top: 1830px;
+    }
+    .BallF>.posBall:nth-child(12){
+        width: 90%;
+        background: url("./img/Ball_yellow4.png") no-repeat right top;
+        top: 2000px;
+    }
+    .BallF>.posBall:nth-child(13){
+        width: 100%;
+        height: 229px;
+        background: url("./img/bangeBall.png") no-repeat left top;
+        top: 2000px;
+        background-size: contain;
+    }
+}
+
+
+/*移动端适配代码*/
+@media screen and (max-width:768px){ 
+    .bannerBJ{
+        width: 100%;
+        overflow: hidden;
+        background: url("./img/homeKV1.png") no-repeat;
+        height: 14rem;
+        position: relative;
+        background-size: contain;
+    }
+    /* 核心团队 */
+    .teamList{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        z-index: 5;
+    }
+    .teamList>h3{
+        width: 100%;
+        height:40px;
+        font-size:30px;
+        color:rgba(40,100,123,1);
+        line-height:40px;
+        text-align: center;
+    }
+    .teamList>h3:nth-child(3){
+        margin-top: 120px;
+    }
+    .teamList>ul{
+        overflow: hidden;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .teamListClass{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 60px;
+    }
+    .teamList>ul>li:first-child,.teamList>ul>li:nth-child(4){
+        margin-left: 0;
+    }
+    .teamListClass>h3{
+        width: 160px;
+        margin:  0 auto;
+        height: 160px;
+        background: url('./img/img1.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul>li:nth-child(2)>h3{
+        background: url('./img/img2.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul>li:nth-child(3)>h3{
+        background: url('./img/img3.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul>li:nth-child(4)>h3{
+        background: url('./img/img4.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul>li:nth-child(5)>h3{
+        background: url('./img/img5.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul:nth-child(4)>li.teamListClass:nth-child(1)>h3{
+        background: url('./img/img6.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul:nth-child(4)>li.teamListClass:nth-child(2)>h3{
+        background: url('./img/img7.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul:nth-child(4)>li.teamListClass:nth-child(3)>h3{
+        background: url('./img/img8.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul:nth-child(4)>li.teamListClass:nth-child(4)>h3{
+        background: url('./img/img9.png') no-repeat center center;
+        background-size: contain;
+    }
+    .teamList>ul:nth-child(2)>li.teamListClass:nth-child(1)>h4,.teamList>ul:nth-child(2)>li.teamListClass:nth-child(2)>h4{
+        display: block;
+    }
+    .teamListClass>p{
+        width: 100%;
+        height:30px;
+        font-size:18px;
+        color:rgba(40,100,123,1);
+        line-height:30px;
+        margin-top: 10px;
+    }
+    .teamListClass>h4{
+        width: 100%;
+        height:20px;
+        font-size:14px;
+        color:rgba(40,100,123,1);
+        line-height:20px;
+        display: none;
+    }
+    .teamListClass>h5{
+        width: 100%;
+        height:20px;
+        line-height:20px;
+        margin-top: 6px;
+    }
+    .teamListClass>h5>img{
+        width: 4%;
+        margin-left: 10px;
+        display: none;
+    }
+    .teamList>ul:nth-child(4)>li.teamListClass>h5{
+        display: none;
+    }
+    .teamListClass>h5>img:first-child{
+        margin-left: 0px;
+        display: block;
+        margin:  0 auto;
+        cursor: pointer;
+    }
+    .teamListClass>h6{
+        width: 100%;
+        font-size:12px;
+        color:rgba(40,100,123,1);
+        line-height:20px;
+    }
+    .teamList>ul:nth-child(4){
+        padding-bottom: 600px;
+    }
+    /* 加入Egretia */
+    .JoinEgretia{
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 45rem;
+        margin-top: 100px;
+        position: relative;
+        z-index: 10;
+    }
+    .JoinEgretia>h3{
+        /* height:100px; */
+        font-size:2.2rem;
+        color:rgba(40,100,123,1);
+        line-height:40px;
+    }
+    .JoinEgretia>p{
+        height:34px;
+        font-size:14px;
+        color:#fff;
+        background:rgba(0,164,229,1);
+        border-radius:10px;
+        width: 80%;
+        line-height: 34px;
+        margin: 0 auto;
+        cursor: pointer;
+        margin-top: 2rem;
+    }
+
+    /* 各种背景位置控制 */
+    .posBJ{
+        background: url("../Home/img/firstShadow.png") no-repeat left top;
+        width: 80%;
+        height: 1300px; 
+        position: absolute;
+        top: 200px;
+        z-index: 2;
+        background-size: 100% 100%;
+    }
+    .ControlF>.posBJ:nth-child(2){
+        background: url("../Home/img/xuxianLeft.png") no-repeat left top;
+        top: 1800px;
+        background-size: 100% 100%;
+        z-index: 3;
+    }
+    .ControlF>.posBJ:nth-child(3){
+        background: url("../Home/img/rightShabox.png") no-repeat right top;
+        top: 1800px;
+        right: 0;
+        background-size: 100% 100%;
+    }
+    /* 各个球球位置 */
+    .posBall{
+        background: url("../Product/img/Ball5.png") no-repeat left top;
+        height: 200px;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+    .BallF>.posBall:nth-child(2){
+        background: url("../Product/img/Ball1.png") no-repeat left top;
+        background-position-x: 250px;
+        top: 110px;
+    }
+    .BallF>.posBall:nth-child(3){
+        background: url("../Product/img/Ball_blue1.png") no-repeat left top;
+        background-position-x: 80%;
+        background-size: 40px;
+        top: 600px;
+    }
+    .BallF>.posBall:nth-child(4){
+        width: 100%;
+        right: 0;
+        background: url("../Product/img/Ball_blue4.png") no-repeat right top;
+        background-size: 200px;
+        top: 730px;
+    }
+    .BallF>.posBall:nth-child(5){
+        background: url("./img/Ball_yellow2.png") no-repeat left top;
+        background-position-x: 30%;
+        background-size: 40px;
+        top: 168px;
+    }
+    .BallF>.posBall:nth-child(6){
+        background: url("./img/Ball_yellow1.png") no-repeat left top;
+        background-position-x: 60%;
+        top: 168px;
+    }
+    .BallF>.posBall:nth-child(7){
+        background: url("../Product/img/Ball_blue3.png") no-repeat left top;
+        background-position-x: 80%;
+        top: 3450px;
+    }
+    .BallF>.posBall:nth-child(8){
+        background: url("./img/Ball_yellow1.png") no-repeat left top;
+        background-position-x: 40%;
+        background-size: 20px;
+        top: 1405px;
+    }
+    .BallF>.posBall:nth-child(9){
+        background: url("./img/Ball_yellow2.png") no-repeat left top;
+        background-position-x: 66%;
+        top: 1360px;
+    }
+    .BallF>.posBall:nth-child(10){
+        background: url("../Product/img/Ball_blue4.png") no-repeat right top;
+        height: 300px;
+        background-size: 200px;
+        top: 2170px;
+    }
+    .BallF>.posBall:nth-child(11){
+        background: url("./img/Ball_yellow4.png") no-repeat left top;
+        background-size: 40px;
+        top: 2330px;
+    }
+    .BallF>.posBall:nth-child(12){
+        width: 90%;
+        background: url("./img/Ball_yellow4.png") no-repeat right top;
+        top: 2600px;
+    }
+    .BallF>.posBall:nth-child(13){
+        width: 100%;
+        height: 229px;
+        background: url("./img/bangeBall.png") no-repeat left top;
+        top: 2900px;
+        background-size: contain;
+    }
+}

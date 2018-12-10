@@ -1,0 +1,262 @@
+  @media screen and (min-width:769px){ 
+      .Footer{
+          width: 100%;
+          overflow: hidden;
+          background: url('./img/footer.png') no-repeat left top;
+          background-size: 110% 160%; 
+          margin-top: -300px;
+          padding-top: 40px;
+          position: relative;
+          z-index: 1000;
+      }
+      .Egretia{
+          width: 100%;
+          height: 30px;
+          line-height: 30px;
+          text-align: left;
+      }
+      .FooterWidth{
+            max-width: 1000px;
+            box-sizing: border-box;
+            padding-left: 170px;
+      }
+      .Egretia>img{
+          width: 8%;
+      }
+      .FooterLists{
+          width: 100%;
+          overflow: hidden;
+      }
+      .FooterLists>li{
+          width: 25%;
+          overflow: hidden;
+          text-align: left;
+          float: left;
+      }
+      /* 每一项 */
+      .FooterList{
+          width: 100%;
+          overflow: hidden;
+      }
+      .FooterList>li{
+          width: 100%;
+          overflow: hidden;
+          margin-top: 20px;
+      }
+      .FooterList>li>h3{
+            display: inline-block;
+            height: 50px;
+            font-size:14px;
+            color:rgba(255,255,255,1);
+            line-height:50px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+      }
+      .FooterList>li>p{
+        font-size:12px;
+        color: #fff;
+        cursor: pointer;
+      }
+      .FooterList>li>p>a{
+        color: #fff;
+      }
+      .FooterList>li>p:hover{
+          color: #FAC568;
+      }
+      .FooterList>li>p:hover>a{
+        color: #FAC568;
+    }
+
+      .BootomBar{
+          padding-bottom: 40px;
+          margin-top: 40px;
+          width : 100%;
+          overflow: hidden;
+      }
+      .BootomBar>div,.BootomBar>ul{
+          width: 50%;
+          overflow: hidden;
+          float: left;
+      }
+      .BootomBar>div>p{
+          color: #fff;
+          font-size: 12px;
+          text-align: left;
+          line-height: 20px;
+      }
+      .BootomBar>ul>li{
+         width: 30px;
+         height: 30px;
+         float: right;
+         cursor: pointer;
+         margin-left: 20px;
+         margin-top: 10px;
+         background: url('./img/in.png') no-repeat center center;
+     }
+     .BootomBar>ul>li:nth-child(2){
+        background: url('./img/grow.png') no-repeat center center;
+     }
+     .BootomBar>ul>li:nth-child(3){
+        background: url('./img/plant.png') no-repeat center center;
+     }
+     .BootomBar>ul>li:nth-child(4){
+        background: url('./img/bit.png') no-repeat center center;
+     }
+     .BootomBar>ul>li:nth-child(5){
+        background: url('./img/github.png') no-repeat center center;
+     }
+     .BootomBar>ul>li:nth-child(6){
+        background: url('./img/ti.png') no-repeat center center;
+     }
+     .BootomBar>ul>li:nth-child(7){
+        background: url('./img/email.png') no-repeat center center;
+     }
+     .BootomBar>ul>li:nth-child(8){
+        background: url('./img/facebook.png') no-repeat center center;
+     }
+  }
+  
+  
+  /*移动端适配代码*/
+  @media screen and (max-width:768px){ 
+    body,html{
+      font-size: 62.5%;
+    }
+    .Footer{
+        width: 100%;
+        overflow: hidden;
+        background: #0092FC;
+        margin-top: -37rem;
+        padding-top: 40px;
+        position: relative;
+        z-index: 1000;
+    }
+    .Egretia{
+        width: 80%;
+        margin: 0 auto;
+        height: 30px;
+        line-height: 30px;
+        text-align: left;
+    }
+    .FooterWidth{
+          box-sizing: border-box;
+    }
+    .Egretia>img{
+        width: 28%;
+    }
+    .FooterLists{
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .FooterLists>li{
+        width: 50%;
+        overflow: hidden;
+        text-align: left;
+        display: none;
+        float: left;
+    }
+    .FooterLists>li:nth-child(2),.FooterLists>li:nth-child(3){
+        display: block;
+    }
+    /* 每一项 */
+    .FooterList{
+        width: 100%;
+        overflow: hidden;
+    }
+    .FooterList>li{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .FooterList>li>h3{
+          display: inline-block;
+          height: 50px;
+          font-size:14px;
+          color:rgba(255,255,255,1);
+          line-height:50px;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+    }
+    .FooterList>li>p{
+      font-size:12px;
+      color: #fff;
+      cursor: pointer;
+    }
+    .FooterList>li>p>a{
+      color: #fff;
+    }
+    .FooterList>li>p:hover{
+        color: #FAC568;
+    }
+    .FooterList>li>p:hover>a{
+      color: #FAC568;
+  }
+
+    .BootomBar{
+        padding-bottom: 40px;
+        margin-top: 40px;
+        width : 100%;
+        overflow: hidden;
+        padding-top: 20px;
+    }
+    .BootomBar>div,.BootomBar>ul{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 3rem;
+    }
+    .BootomBar>ul{
+        float: left;
+        margin-top: -15rem;
+        width: 60%;
+        /* padding-top: 4rem; */
+    }
+    .BootomBar>div>p{
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        line-height: 20px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .BootomBar>div>p:first-child{
+        padding-top: 5rem;
+    }
+    .BootomBar>ul>li{
+        width: 30px;
+        height: 30px;
+        float: right;
+        cursor: pointer;
+        margin-left: 20px;
+        margin-top: 10px;
+        background: url('./img/in.png') no-repeat left center;
+        background-size: 50%;
+    }
+    .BootomBar>ul>li:nth-child(2){
+       background: url('./img/grow.png') no-repeat left center;
+       background-size: 50%;
+    }
+    .BootomBar>ul>li:nth-child(3){
+       background: url('./img/plant.png') no-repeat left center;
+       background-size: 50%;
+    }
+    .BootomBar>ul>li:nth-child(4){
+       background: url('./img/bit.png') no-repeat left center;
+       background-size: 50%;
+    }
+    .BootomBar>ul>li:nth-child(5){
+        background-size: 50%;
+        background: url('./img/github.png') no-repeat left center;
+    }
+    .BootomBar>ul>li:nth-child(6){
+       background: url('./img/ti.png') no-repeat left center;
+       background-size: 50%;
+    }
+    .BootomBar>ul>li:nth-child(7){
+       background: url('./img/email.png') no-repeat left center;
+       background-size: 50%;
+    }
+    .BootomBar>ul>li:nth-child(8){
+       background: url('./img/facebook.png') no-repeat left center;
+       background-size: 50%;
+    }
+  }

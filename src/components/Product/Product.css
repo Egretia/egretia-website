@@ -1,0 +1,516 @@
+/*PC端适配代码*/
+@media screen and (min-width:769px){ 
+    .bannerBJ{
+        width: 100%;
+        overflow: hidden;
+        background: url("./img/navBJ.png") no-repeat;
+        background-size: 100% 90%;
+        height: 600px;
+        position: relative;
+    }
+    .Moon,.Allin{
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        z-index: 10;
+    }
+    .Allin{
+        z-index: 11;
+        top: 70%;
+        width: 500px;
+    }
+    .Moon>img,.Allin>img{
+        width: 100%;
+    }
+
+    /* 产品列表 */
+    .ProductLists{
+        width: 1080px;
+        overflow: hidden;
+        position: relative;
+        z-index: 5;
+        margin: 0 auto;
+        margin-top: 200px;
+    }
+    .fatherP>h3{
+        height:60px;
+        font-size:30px;
+        color:rgba(40,100,123,1);
+        line-height:60px;
+        text-align: center;
+    }
+    .fatherP>pre{
+        font-size:14px;
+        color:#6892A2;
+        line-height:20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .fatherP>div{
+       padding: 20px 0;
+       width: 300px;
+       overflow: hidden;
+       margin: 0 auto;
+       text-align: center;
+    }
+    .fatherP>div>p{
+        float: left;
+        width: 130px;
+        background:rgba(0,164,229,1);
+        border-radius:10px;
+        line-height: 30px;
+        height: 30px;
+        font-size: 12px;
+        color: #fff;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+    .fatherP>div>h3{
+        float: right;
+        width: 130px;
+        border-radius:10px;
+        border:1px solid rgba(0,164,229,1);
+        line-height: 28px;
+        height: 30px;
+        font-size: 12px;
+        color:rgba(0,164,229,1);
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+    .ProductLists>h4{
+        margin: 0 auto;
+        width: 800px;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .ProductLists>h4>img{
+        width: 100%;
+    }
+
+    /* 第二个和第四个单独控制 */
+    .father>.ProductLists:nth-child(2),.father>.ProductLists:nth-child(4){
+        padding-top: 130px;
+    }
+    .father>.ProductLists:nth-child(2)>.fatherP{
+        float: right;
+    }
+    .father>.ProductLists:nth-child(2)>.fatherP>div{
+        float: right;
+    }
+    .father>.ProductLists:nth-child(2)>.fatherP>pre,.father>.ProductLists:nth-child(2)>.fatherP>h3{
+        text-align: right;
+    }
+    .father>.ProductLists:nth-child(4)>.fatherP>pre,.father>.ProductLists:nth-child(4)>.fatherP>h3{
+        text-align: left;
+    }
+    .father>.ProductLists:nth-child(2)>h4{
+        float: left;
+        margin-top: -320px;
+    }
+    .father>.ProductLists:nth-child(4)>.fatherP{
+        float: left;
+    }
+    .father>.ProductLists:nth-child(4)>.fatherP>div{
+        margin: 0;
+    }
+    .father>.ProductLists:nth-child(4)>h4{
+        float: right;
+        margin-top: -320px;
+    }
+    .father>.ProductLists:first-child{
+        margin-top: 0;
+    }
+    .father>.ProductLists:nth-child(5){
+        padding-bottom: 400px;
+    }
+    .father>.ProductLists:nth-child(5)>.fatherP>div>h3{
+        display: none;
+    }
+    .father>.ProductLists:nth-child(5)>.fatherP>div>p{
+        margin: 0 auto;
+        float: none;
+    }
+
+    /* 各种背景位置控制 */
+    .posBJ{
+        background: url("../Home/img/firstShadow.png") no-repeat left top;
+        width: 60%;
+        height: 1000px; 
+        position: absolute;
+        top: 400px;
+        z-index: 2;
+        background-size: 100% 100%;
+    }
+    .ControlF>.posBJ:nth-child(2){
+        background: url("../Home/img/xuxianLeft.png") no-repeat left top;
+        top: 900px;
+        background-size: 100% 100%;
+        z-index: 3;
+    }
+    .ControlF>.posBJ:nth-child(3){
+        background: url("../Home/img/rightShabox.png") no-repeat right top;
+        top: 1000px;
+        right: 0;
+        background-size: 100% 100%;
+    }
+    .ControlF>.posBJ:nth-child(4){
+        background: url("../Home/img/xuxianLeft.png") no-repeat left top;
+        top: 2400px;
+        background-size: 100% 100%;
+        z-index: 3;
+    }
+    .ControlF>.posBJ:nth-child(5){
+        background: url("../Home/img/rightShabox.png") no-repeat right top;
+        top: 2600px;
+        right: 0;
+        background-size: 100% 100%;
+    }
+    .ControlF>.posBJ:nth-child(6){
+        background: url("../Home/img/firstShadow.png") no-repeat left top;
+        top: 3600px;
+        background-size: 100% 100%;
+    }
+    /* 各个球球位置 */
+    /* .BallF{
+        position: absolute;
+        top: 0;left: 0;
+        width: 100%;
+        height: 100%;
+    } */
+    .posBall{
+        background: url("./img/Ball6.png") no-repeat left top;
+        height: 200px;
+        width: 1080px;
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+    .BallF>.posBall:nth-child(2){
+        background: url("./img/Ball1.png") no-repeat left top;
+        background-position-x: 200px;
+        top: 180px;
+    }
+    .BallF>.posBall:nth-child(3){
+        background: url("./img/Ball3.png") no-repeat left top;
+        background-position-x: 280px;
+        top: 400px;
+    }
+    .BallF>.posBall:nth-child(4){
+        background: url("./img/Ball2.png") no-repeat left top;
+        background-position-x: 860px;
+        top: 230px;
+    }
+    .BallF>.posBall:nth-child(5){
+        background: url("./img/Ball_blue4.png") no-repeat left top;
+        background-position-x: 1000px;
+        background-size: 80px;
+        top: 330px;
+    }
+    .BallF>.posBall:nth-child(6){
+        background: url("./img/Ball3.png") no-repeat left top;
+        background-position-x: 900px;
+        top: 600px;
+    }
+    .BallF>.posBall:nth-child(7){
+        background: url("./img/Ball_yellow1.png") no-repeat left top;
+        background-position-x: 950px;
+        top: 1400px;
+    }
+    .BallF>.posBall:nth-child(8){
+        background: url("./img/Ball_blue3.png") no-repeat left top;
+        background-position-x: 390px;
+        background-size: 200px;
+        top: 1680px;
+    }
+    .BallF>.posBall:nth-child(9){
+        background: url("./img/Ball_yellow3.png") no-repeat left top;
+        background-size: 200px;
+        top: 2200px;
+    }
+    .BallF>.posBall:nth-child(10){
+        background: url("./img/Ball1.png") no-repeat left top;
+        background-position-x: 100px;
+        top: 2740px;
+    }
+    .BallF>.posBall:nth-child(11){
+        background: url("./img/Ball_blue4.png") no-repeat left top;
+        background-position-x: 970px;
+        background-size: 60px;
+        top: 2800px;
+    }
+    .BallF>.posBall:nth-child(12){
+        background: url("./img/Ball_yellow2.png") no-repeat left top;
+        background-position-x: 170px;
+        top: 3450px;
+    }
+    .BallF>.posBall:nth-child(13){
+        background: url("./img/Ball_blue4.png") no-repeat right top;
+        top: 3550px;
+        height: 400px;
+    }
+}
+
+
+/*移动端适配代码*/
+@media screen and (max-width:768px){ 
+    .bannerBJ{
+        width: 100%;
+        overflow: hidden;
+        background: url("./img/navBJ1.png") no-repeat;
+        background-size: 100% 90%;
+        height: 600px;
+        position: relative;
+    }
+    .Moon,.Allin{
+        width: 60%;
+        height: 20rem;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        z-index: 10;
+    }
+    .Allin{
+        z-index: 11;
+        top: 62%;
+        width: 80%;
+        /* width: 500px; */
+    }
+    .Moon>img,.Allin>img{
+        width: 100%;
+    }
+
+    /* 产品列表 */
+    .father{
+        padding-bottom: 40rem;
+    }
+    .ProductLists{
+        width: 90%;
+        overflow: hidden;
+        position: relative;
+        z-index: 5;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .fatherP>h3{
+        height:4rem;
+        font-size:2.2rem;
+        color:rgba(40,100,123,1);
+        line-height:4rem;
+        text-align: center;
+    }
+    .fatherP>pre{
+        font-size:1.4rem;
+        color:#6892A2;
+        line-height:20px;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        text-align: center;
+        /* margin-top: 20px; */
+    }
+    .fatherP>div{
+       padding: 20px 0;
+       width: 300px;
+       overflow: hidden;
+       margin: 0 auto;
+       text-align: center;
+    }
+    .fatherP>div>p{
+        float: left;
+        width: 130px;
+        background:rgba(0,164,229,1);
+        border-radius:10px;
+        line-height: 30px;
+        height: 30px;
+        font-size: 1.2rem;
+        color: #fff;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+    .fatherP>div>h3{
+        float: right;
+        width: 130px;
+        border-radius:10px;
+        border:1px solid rgba(0,164,229,1);
+        line-height: 28px;
+        height: 30px;
+        font-size: 1.2rem;
+        color:rgba(0,164,229,1);
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+    .ProductLists>h4{
+        margin: 0 auto;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .ProductLists>h4>img{
+        width: 100%;
+    }
+
+    /* 第二个和第四个单独控制 */
+    /* .father>.ProductLists:nth-child(2),.father>.ProductLists:nth-child(4){
+        padding-top: 130px;
+    }
+    .father>.ProductLists:nth-child(2)>.fatherP{
+        float: right;
+    }
+    .father>.ProductLists:nth-child(2)>.fatherP>pre,.father>.ProductLists:nth-child(2)>.fatherP>h3{
+        text-align: right;
+    }
+    .father>.ProductLists:nth-child(4)>.fatherP>pre,.father>.ProductLists:nth-child(4)>.fatherP>h3{
+        text-align: left;
+    }
+    .father>.ProductLists:nth-child(2)>h4{
+        float: left;
+        margin-top: -320px;
+    }
+    .father>.ProductLists:nth-child(4)>.fatherP{
+        float: left;
+    }
+    .father>.ProductLists:nth-child(4)>.fatherP>div{
+        margin: 0;
+    }
+    .father>.ProductLists:nth-child(4)>h4{
+        float: right;
+        margin-top: -320px;
+    }
+    .father>.ProductLists:first-child{
+        margin-top: 0;
+    }
+    .father>.ProductLists:nth-child(5){
+        padding-bottom: 400px;
+    }*/
+    .father>.ProductLists:nth-child(5)>.fatherP>div>h3{
+        display: none;
+    }
+    .father>.ProductLists:nth-child(5)>.fatherP>div>p{
+        margin: 0 auto;
+        float: none;
+    } 
+    /* 各种背景位置控制 */
+    .posBJ{
+        background: url("../Home/img/firstShadow.png") no-repeat left top;
+        width: 60%;
+        height: 1000px; 
+        position: absolute;
+        top: 400px;
+        z-index: 2;
+        background-size: 100% 100%;
+    }
+    .ControlF>.posBJ:nth-child(2){
+        background: url("../Home/img/xuxianLeft.png") no-repeat left top;
+        top: 900px;
+        background-size: 100% 100%;
+        z-index: 3;
+    }
+    .ControlF>.posBJ:nth-child(3){
+        background: url("../Home/img/rightShabox.png") no-repeat right top;
+        top: 1000px;
+        right: 0;
+        background-size: 100% 100%;
+    }
+    .ControlF>.posBJ:nth-child(4){
+        background: url("../Home/img/xuxianLeft.png") no-repeat left top;
+        top: 1400px;
+        background-size: 100% 100%;
+        z-index: 3;
+    }
+    .ControlF>.posBJ:nth-child(5){
+        background: url("../Home/img/rightShabox.png") no-repeat right top;
+        top: 1600px;
+        right: 0;
+        background-size: 100% 100%;
+    }
+    .ControlF>.posBJ:nth-child(6){
+        background: url("../Home/img/firstShadow.png") no-repeat left top;
+        top: 1800px;
+        background-size: 100% 100%;
+    }
+    /* 各个球球位置 */
+    .BallF{
+        position: absolute;
+        top: 0;left: 0;
+        width: 100%;
+        height: 100%;
+    } 
+    .posBall{
+        background: url("./img/Ball6.png") no-repeat left top;
+        height: 200px;
+        width: 100%;
+        position: absolute;
+        top: 38rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+    .BallF>.posBall:nth-child(2){
+        background: url("./img/Ball1.png") no-repeat left top;
+        background-position-x: 200px;
+        top: 180px;
+    }
+    .BallF>.posBall:nth-child(3){
+        background: url("./img/Ball3.png") no-repeat left top;
+        background-position-x: 280px;
+        top: 400px;
+    }
+    .BallF>.posBall:nth-child(4){
+        background: url("./img/Ball2.png") no-repeat left top;
+        background-position-x: 40%;
+        top: 230px;
+    }
+    .BallF>.posBall:nth-child(5){
+        background: url("./img/Ball_blue4.png") no-repeat left top;
+        background-position-x: 80%;
+        background-size: 80px;
+        top: 630px;
+    }
+    .BallF>.posBall:nth-child(6){
+        background: url("./img/Ball3.png") no-repeat left top;
+        background-position-x: 70%;
+        top: 890px;
+    }
+    .BallF>.posBall:nth-child(7){
+        background: url("./img/Ball_yellow1.png") no-repeat left top;
+        background-position-x: 45%;
+        top: 1000px;
+    }
+    .BallF>.posBall:nth-child(8){
+        background: url("./img/Ball_blue3.png") no-repeat left top;
+        background-position-x: 390px;
+        background-size: 200px;
+        top: 1680px;
+    }
+    .BallF>.posBall:nth-child(9){
+        background: url("./img/Ball_yellow3.png") no-repeat left top;
+        background-size: 200px;
+        top: 1200px;
+    }
+    .BallF>.posBall:nth-child(10){
+        background: url("./img/Ball1.png") no-repeat left top;
+        background-position-x: 100px;
+        top: 1440px;
+    }
+    .BallF>.posBall:nth-child(11){
+        background: url("./img/Ball_blue4.png") no-repeat left top;
+        background-position-x: 200px;
+        background-size: 60px;
+        top: 2000px;
+    }
+    .BallF>.posBall:nth-child(12){
+        background: url("./img/Ball_yellow2.png") no-repeat left top;
+        background-position-x: 50px;
+        top: 2050px;
+    }
+    .BallF>.posBall:nth-child(13){
+        background: url("./img/Ball_blue4.png") no-repeat right top;
+        top: 2350px;
+        height: 400px;
+    }
+}

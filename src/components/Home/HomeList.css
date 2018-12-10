@@ -1,0 +1,1056 @@
+/*PC端适配代码*/
+@media screen and (min-width:769px){ 
+    .verifying{
+        width: 100%;
+        overflow: hidden;
+        background: url('./img/twoShabox.png') no-repeat right top;
+        background-size: contain;
+        height: 700px;
+        margin-top: -200px;
+        position: relative;
+    }
+    .verifying h5{
+        margin-top: 160px;
+        margin-left: 20%;
+        width: 30%;
+        overflow: hidden;
+        float: right;
+        position: relative;
+        text-align: right;
+    }
+    .verifying h5>img{
+        width: 100%;
+        vertical-align: middle;
+        /* position: absolute;
+        top: 50%;
+        transform: translateY(-50%); */
+    }
+    .verifyingContain{
+        margin-top: 240px;
+        width: 50%;
+        float: left;
+        overflow: hidden;
+        text-align: left;
+    }
+    .verifyingContain>p{
+        width: 100%;
+        height: 40px;
+    }
+    .verifyingContain>p>img{
+        width: 5%;
+        vertical-align: middle;
+    }
+    .verifyingContain>h3{
+        height:70px;
+        font-size:26px;
+        color:rgba(40,100,123,1);
+        line-height:70px;
+    }
+    .verifyingContain>h4{
+        font-size:16px;
+        color:rgba(40,100,123,1);
+        line-height:22px;
+        padding-bottom: 100px;
+    }
+    div.leftJian{
+        background: url('./img/leftJian.png') no-repeat left bottom;
+        background-size: auto;
+    }
+
+    /* 只需四步区域 */
+    .fourSteps{
+        width: 100%;
+        overflow: hidden;
+        background: url('./img/xuxianLeft.png') no-repeat left top;
+        background-size: cover;
+        margin-top: -100px;
+    }
+    .fourStepsAfter{
+        background: url('./img/rightShabox.png') no-repeat right top;
+        background-size: 75% 96%;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 100px;
+       /* padding-bottom: 80px; */
+    }
+    .tuList{
+        width: 100%;
+        overflow: hidden;
+    }
+    .tuList>p{
+        width: 100%;
+        text-align: center;
+        color: #28647B;
+        height: 50px;
+        line-height: 50px;
+        font-size: 28px;
+    }
+    .fourLists{
+        width: 100%;
+        padding-top: 60px;
+        overflow: hidden;
+        padding-bottom: 100px;
+    }
+    .fourLists>li{
+        width: 20%;
+        overflow: hidden;
+        float: left;
+        margin-left: 6.666666666666%;
+        background:rgba(255,255,255,1);
+        box-shadow:0px 2px 20px 0px rgba(0,0,0,0.2);
+        border-radius:15px;
+        height: 320px;
+        cursor: pointer;
+        transition: margin-top .2s steps(11), box-shadow .2s steps(11);
+        box-shadow: 0px 0px 0px #999;
+    }
+    .fourLists>li:first-child{
+        margin-left: 0;
+    }
+    .fourLists>li>h3{
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        background:rgba(0,164,228,1);
+        border-radius:15px 15px 0px 0px;
+        color: #fff;
+        font-size: 30px;
+    }
+    .fourLists>li>p{
+        padding: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        overflow: hidden;
+        padding-top: 30px;
+    }
+    .fourLists>li>p>img{
+        width: 50%;
+        vertical-align: middle;
+    }
+    .fourLists>li>h4{
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        color: #00A4E4;
+        font-size: 24px;
+    }
+    .fourLists>li:hover{
+        margin-top: -30px;
+        box-shadow: 0px 4px 10px #999;
+    }
+    /* @keyframes move{
+        0%{margin-top:-10px;box-shadow: 0px 0px 0px #999;}
+        50%{margin-top:-20px;box-shadow: 0px 2px 5px #999;}
+        100%{margin-top:-30px;box-shadow: 0px 4px 10px #999;}
+    } */
+
+    /* 作品展示 */
+    .showWorks{
+        background: url('./img/Mask1.png') no-repeat right top;
+        background-size: auto;
+        overflow: hidden;
+        width: 100%;
+        /* margin-top: -200px; */
+    }
+    .showLists{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 40px;
+    }
+    .showLists>li{
+        width: 30%;
+        margin-left: 5%;
+        overflow: hidden;
+        float: left;
+    }
+    .showLists>li:first-child{
+        margin-left: 0;
+    }
+    .showLists>li>p{
+        width: 100%;
+        height: 200px;
+        cursor: pointer;
+    }
+    .showLists>li>p>img{
+        width: 100%;
+    }
+    .showLists>li>h3{
+        margin-top: 20px;
+        color: #28647B;
+        font-size: 18px;
+        width: 100%;
+    }
+    .showLists>li>h4{
+        margin-top: 10px;
+        color: #6892A2;
+        font-size: 14px;
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    /* 左侧背景组件 */
+    .leftAssembly{
+        background: url('./img/firstShadow.png') no-repeat left top;
+        background-size: contain;
+        height: 500px;
+        margin-top: -400px;
+    }
+    .leftFang{
+        background: url('./img/Mask.png') no-repeat left top;
+        background-size: contain;
+        height: 500px;
+        margin-top: -300px;
+    }
+
+    /* 发展路线 时间轴 */
+    .developmentRoute{
+        width: 100%;
+        overflow: hidden;
+        background: url("./img/development.png") no-repeat left top;
+        background-size: 100% 100%;
+        height: 500px;
+        position: relative;
+    }
+    .developmentRoute h2{
+        width: 100%;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+    }
+    .timeAxis{
+        overflow: hidden;
+        width: 100%;
+        background: url('./img/Line.png') no-repeat left center;
+        background-size: 90% 2px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 300px;
+    }
+    .TopTimeAxis{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        z-index: 20;
+        /* top: -2px; */
+    }
+    .BottomTimeAxis{
+        width: 80%;
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+        z-index: 100;
+        top: -20px;
+    }
+    .TopTimeAxis>li{
+        width: 20%;
+        float: left;
+        box-sizing: border-box;
+        overflow: hidden;
+        background: url('./img/xian1.png') no-repeat left top;
+        height: 160px;
+    }
+    .TopTimeAxis>li:nth-child(2){
+        background: url('./img/xian2.png') no-repeat left top;
+    }
+    .TopTimeAxis>li:nth-child(3){
+        background: url('./img/xian3.png') no-repeat left top;
+    }
+    .TopTimeAxis>li:nth-child(4){
+        background: url('./img/xian4.png') no-repeat left top;
+    }
+    .TopTimeAxis>li:nth-child(5){
+        background: url('./img/xian5.png') no-repeat left top;
+    }
+    .BottomTimeAxis>li{
+        width: 25%;
+        float: left;
+        box-sizing: border-box;
+        overflow: hidden;
+        background: url('./img/xian6.png') no-repeat left top;
+        height: 200px;
+        padding-top: 100px;
+    }
+    .BottomTimeAxis>li:nth-child(2){
+        background: url('./img/xian7.png') no-repeat left top;
+    }
+    .BottomTimeAxis>li:nth-child(3){
+        background: url('./img/xian8.png') no-repeat left top;
+    }
+    .BottomTimeAxis>li:nth-child(4){
+        background: url('./img/xian9.png') no-repeat left top;
+    }
+    .TopTimeAxis>li>h3{
+       width: 100%;
+       color:rgba(255,255,255,1);
+       font-size: 12px;
+       text-align: left;
+       line-height: 20px;
+       height: 60px;
+       width: 83%;
+       padding-left: 20px;
+    }
+    .BottomTimeAxis>li>h3{
+        width: 100%;
+        color:rgba(255,255,255,1);
+        font-size: 12px;
+        text-align: left;
+        line-height: 18px;
+        height: 60px;
+        width: 83%;
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+    .TopTimeAxis>li>p{
+        width: 100%;
+        color:rgba(255,255,255,1);
+        font-size: 14px;
+        text-align: left;
+        line-height: 54px;
+        height: 54px;
+        width: 60%;
+        padding-left: 20px;
+     }
+     .BottomTimeAxis>li>p{
+        width: 100%;
+        color:rgba(255,255,255,1);
+        font-size: 14px;
+        text-align: left;
+        line-height: 54px;
+        height: 54px;
+        width: 60%;
+        margin-top: -60px;
+        padding-left: 20px;
+     }
+
+     
+
+
+    /* 媒体报道 */
+    .MediaCover{
+        background: url("./img/xuxianLeft.png") left top;
+        background-size: auto auto;
+        padding-top: 200px;
+        width: 100%;
+        overflow: hidden;
+        height: 1000px;
+    }
+    .Media{
+        width: 100%;
+        overflow: hidden;
+    }
+    .Media>p{
+        width: 100%;
+        height: 120px;
+        line-height: 120px;
+        text-align: center;
+        font-size: 30px;
+        color: #28647B;
+    }
+    .MediaList{
+        width: 100%;
+        overflow: hidden;
+        
+    }
+    .MediaList>li{
+        width: 45%;
+        margin-left: 10%;
+        float: left;
+        overflow: hidden;
+        background:rgba(255,255,255,1);
+        box-shadow:0px 2px 20px 0px rgba(0,0,0,0.1);
+        border-radius:15px;
+        margin-top: 30px;
+        height: 155px;
+        position: relative;
+        cursor: pointer;
+    }
+    .MediaList>li:nth-child(1),.MediaList>li:nth-child(3),.MediaList>li:nth-child(5){
+        margin-left: 0;
+    }
+    .MediaList>li>h3{
+        height: 50px;
+        line-height: 50px;
+        box-sizing: border-box;
+        background:linear-gradient(90deg,rgba(0,164,228,1),rgba(0,145,254,1));
+        border-radius:15px 15px 0px 0px;
+        color: #fff;
+        font-size: 16px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    .MediaList>li>p{
+        line-height: 18px;
+        font-size: 12px;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: left;
+        color: #28647B;
+        padding: 10px 30px 0 30px;
+    }
+    .MediaList>li>h5{
+       width: 100%;
+       box-sizing: border-box;
+       padding-right: 60px;
+       height: 40px;
+       position: absolute;
+       bottom: 0;
+    }
+
+    /* 对应每个媒体图标 */
+    .MediaList>li>h5>span{
+        display: block;
+        height: 40px;
+        padding-right: 30px;
+        line-height: 40px;
+        font-size: 12px;
+        width: 100%;
+        text-align: right;
+        color: #28647B;
+        background: url('./img/timg.png') no-repeat right center;
+        background-size: 18%;
+    }
+    .MediaList>li:nth-child(2)>h5>span{
+        background: url('./img/timg3.png') no-repeat right center;
+        background-size: 18%;
+    }
+    .MediaList>li:nth-child(3)>h5>span{
+        background: url('./img/timg1.png') no-repeat right center;
+        background-size: 18%;
+    }
+    .MediaList>li:nth-child(4)>h5>span{
+        background: url('./img/timg4.png') no-repeat right center;
+        background-size: 18%;
+    }
+    .MediaList>li:nth-child(5)>h5>span{
+        background: url('./img/timg2.png') no-repeat right center;
+        background-size: 18%;
+    }
+    .MediaList>li:nth-child(6)>h5>span{
+        background: url('./img/timg5.png') no-repeat right center;
+        background-size: 18%;
+    }
+    /* 独家战略 */
+    .ExclusiveStrategy{
+        margin-top: -200px;
+        overflow: hidden;
+        width: 100%;
+    }
+    .ExclusiveStrategy>h3,.ExclusiveStrategy>p,.ExclusiveStrategy>h4,.cooperativePartner>h3,.Subscribe>h3{
+        width: 100%;
+        text-align: center;
+        color: #003449;
+        font-size: 30px;
+        height: 100px;
+        line-height: 100px;
+    }
+    .ExclusiveStrategy>p>img{
+       width: 12%;
+    }
+    .ExclusiveStrategy>h4{
+        color: #516E7A;
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
+    }
+    /* 合作伙伴 */
+    .CooperativePartner{
+        margin-top: 100px;
+        width: 100%;
+        overflow: hidden;
+        /* height: 1000px; */
+        background: url('./img/rightXuxian.png') no-repeat right top;
+        background-size: cover;
+    }
+    .cooperativePartner{
+        width: 100%;
+        overflow: hidden;
+    }
+    .cooperativePartner>ul{
+        width: 100%;
+        overflow: hidden;
+    }
+    .cooperativePartner>ul>li{
+        width: 15%;
+        margin-left: 6.25%;
+        height: 60px;
+        line-height: 60px;
+        float: left;
+        padding: 20px 0;
+    }
+    .cooperativePartner>ul>li:first-child,.cooperativePartner>ul>li:nth-child(6),.cooperativePartner>ul>li:nth-child(11),.cooperativePartner>ul>li:nth-child(16),.cooperativePartner>ul>li:nth-child(21),.cooperativePartner>ul>li:nth-child(26){
+        margin-left: 0;
+    }
+    .cooperativePartner>ul>li>img{
+        width: 80%;
+    }
+    /* 订阅我们的动态 */
+    .Subscribe{
+        width: 100%;
+        overflow: hidden;
+        background: url('./img/firstShadow.png') no-repeat left top;
+        background-size: cover;
+        background-position-x:-600px; 
+        padding-bottom: 500px;
+        margin-top: 130px;
+    }
+    .Subscribe>p{
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        background:rgba(255,255,255,0.3);
+        border-radius:10px;
+        border:2px solid rgba(0,164,228,1);
+        height: 40px;
+        line-height: 40px;
+        margin-top: 30px;
+    }
+    .Subscribe>p>input{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        border: 0;
+        background: rgba(0, 0, 0, 0);
+        font-size : 18px;
+        color:rgba(0,52,73,1);
+    }
+    .Subscribe>h4{
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+        background:rgba(0,164,228,1);
+        border-radius:10px;
+        height: 40px;
+        line-height: 40px;
+        margin-top: 60px;
+        color:rgba(255,255,255,1);
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
+
+
+/*移动端适配代码*/
+@media screen and (max-width:768px){ 
+    .verifying{
+        width: 100%;
+        overflow: hidden;
+        background: url('./img/twoShabox.png') no-repeat right top;
+        background-size: contain;
+        /* height: 700px; */
+        margin-top: -5rem;
+        position: relative;
+        margin-top: 2rem;
+    }
+    .verifying h5{
+        margin: 0 auto !important;
+        margin-top: 20rem !important;
+        width: 40%;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        float: none !important;
+    }
+    .verifying h5>img{
+        width: 100%;
+        vertical-align: middle;
+    }
+    .verifyingContain{
+        margin-top: 6rem;
+        width: 100%;
+        float: left;
+        overflow: hidden;
+        text-align: center;
+    }
+    .verifyingContain>p{
+        width: 80%;
+        height: 40px;
+        display: none;
+    }
+    .verifyingContain>h3{
+        height:6rem;
+        font-size:2.2rem;
+        color:rgba(40,100,123,1);
+        line-height:6rem;
+    }
+    .verifyingContain>h4{
+        font-size:1.2rem;
+        margin: 0 auto;
+        color:rgba(40,100,123,1);
+        line-height:2rem;
+    }
+    div.leftJian{
+        background: url('./img/leftJian.png') no-repeat left bottom;
+        background-size: auto;
+    }
+
+    /* 只需四步区域 */
+    .fourSteps{
+        width: 100%;
+        overflow: hidden;
+        background: url('./img/xuxianLeft.png') no-repeat left top;
+        background-size: cover;
+    }
+    .fourStepsAfter{
+        background: url('./img/rightShabox.png') no-repeat right top;
+        background-size: 75% 96%;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 100px;
+    }
+    .tuList{
+        width: 100%;
+        overflow: hidden;
+    }
+    .tuList>p{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        color: #28647B;
+        height: 80px;
+        line-height: 3rem;
+        font-size: 2.2rem;
+    }
+    .fourLists{
+        width: 80%;
+        padding-top: 60px;
+        overflow: hidden;
+        padding-bottom: 100px;
+        margin: 0 auto;
+    }
+    .fourLists>li{
+        width: 45%;
+        overflow: hidden;
+        float: left;
+        margin-left: 10%;
+        background:rgba(255,255,255,1);
+        box-shadow:0px 2px 20px 0px rgba(0,0,0,0.2);
+        border-radius:15px;
+        height: 23rem;
+        /* padding-bottom: 0rem; */
+        cursor: pointer;
+        transition: margin-top .2s steps(11), box-shadow .2s steps(11);
+        box-shadow: 0px 0px 0px #999;
+        margin-top: 2rem;
+    }
+    .fourLists>li:first-child,.fourLists>li:nth-child(3){
+        margin-left: 0;
+    }
+    .fourLists>li>h3{
+        height: 4rem;
+        line-height: 4rem;
+        text-align: center;
+        background:rgba(0,164,228,1);
+        border-radius:15px 15px 0px 0px;
+        color: #fff;
+        font-size: 2.2rem;
+    }
+    .fourLists>li>p{
+        padding: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        overflow: hidden;
+        padding-top: 30px;
+    }
+    .fourLists>li>p>img{
+        width: 50%;
+        vertical-align: middle;
+    }
+    .fourLists>li>h4{
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        color: #00A4E4;
+        font-size: 24px;
+    }
+    .fourLists>li:hover{
+        margin-top: -30px;
+        box-shadow: 0px 4px 10px #999;
+    }
+
+    /* 作品展示 */
+    .showWorks{
+        background: url('./img/Mask1.png') no-repeat right top;
+        background-size: auto;
+        overflow: hidden;
+        width: 100%;
+    }
+    .showLists{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 4rem;
+    }
+    .showLists>li{
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .showLists>li>p{
+        width: 100%;
+        height: 200px;
+    }
+    .showLists>li>p>img{
+        width: 100%;
+    }
+    .showLists>li>h3{
+        margin-top: 20px;
+        color: #28647B;
+        font-size: 18px;
+        width: 100%;
+    }
+    .showLists>li>h4{
+        margin-top: 10px;
+        color: #6892A2;
+        font-size: 12px;
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    /* 左侧背景组件 */
+    .leftAssembly{
+        background: url('./img/firstShadow.png') no-repeat left top;
+        background-size: contain;
+        height: 30rem;
+        margin-top: -400px;
+    }
+    .leftFang{
+        background: url('./img/Mask.png') no-repeat left top;
+        background-size: contain;
+        height: 500px;
+        margin-top: -300px;
+    }
+
+    /* 发展路线 时间轴 */
+    .developmentRoute{
+        width: 100%;
+        overflow: hidden;
+        /* background: url("./img/development.png") no-repeat left top;
+        background-size: 100% 100%; */
+        height: 72rem;
+        position: relative;
+    }
+    .developmentRoute h2{
+        width: 100%;
+        height: 6rem;
+        line-height: 6rem;
+        text-align: center;
+        font-size: 2.2rem;
+        color: #28647B;
+    } 
+    .timeAxis{
+        overflow: hidden;
+        width: 100%;
+        background: url('./img/Line1.png') no-repeat center top;
+        background-position-y: 11.7rem;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .TopTimeAxis{
+        width: 50%;
+        overflow: hidden;
+        position: relative;
+        z-index: 20;
+        top: -2px;
+        float: right;
+    }
+    .BottomTimeAxis{
+        width: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+        position: relative;
+        z-index: 100;
+        top: 6rem;
+        float: left;
+    }
+    .TopTimeAxis>li,.BottomTimeAxis>li{
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin-top: 7rem;
+    }
+    .TopTimeAxis>li:nth-child(2){
+        margin-top: 6rem;
+    }
+    .TopTimeAxis>li:nth-child(3){
+        margin-top: 6rem;
+    }
+    .TopTimeAxis>li:nth-child(4){
+        margin-top: 6rem;
+    }
+    .TopTimeAxis>li:nth-child(5){
+        margin-top: 6rem;
+    }
+    .BottomTimeAxis>li{
+        padding-top: 8rem;
+        margin-top: 5.6rem;
+    }
+    .BottomTimeAxis>li:nth-child(1){
+        margin-top: 3.4rem;
+    }
+    .BottomTimeAxis>li:nth-child(2){
+        margin-top: 8rem;
+    }
+    .BottomTimeAxis>li:nth-child(3){
+        margin-top: 5.2rem;
+    }
+    .TopTimeAxis>li>h3,.BottomTimeAxis>li>h3{
+       width: 100%;
+       color:#28647B;
+       font-size: 1.2rem;
+       text-align: left;
+       line-height: 14px;
+       /* height: 3rem; */
+       width: 100%;
+       padding-left: 2rem;
+       box-sizing: border-box;
+    }
+    .TopTimeAxis>li>h3{
+        height: 4rem;
+    }
+    .BottomTimeAxis>li>h3{
+        margin-top: -6rem;
+        text-align: right;
+        padding-right: 2rem;
+        padding-left: 0;
+    }
+    .TopTimeAxis>li>p,.BottomTimeAxis>li>p{
+        width: 100%;
+        color:#28647B;
+        font-size: 1.4rem;
+        text-align: left;
+        line-height: 3.4rem;
+        height: 3.4rem;
+        width: 100%;
+        padding-left: 2rem;
+        box-sizing: border-box;
+     }
+     /* .TopTimeAxis>li>p{
+         position: absolute;
+         left: 0;
+         top: 30px;
+     } */
+     .BottomTimeAxis>li>p{
+        margin-top: -5rem;
+        text-align: right;
+        padding-right: 2rem;
+        padding-left: 0;
+        position: absolute;
+        right: 0;
+        top: 165px;
+     }
+     .BottomTimeAxis>li:nth-child(2)>p{
+         top: 300px;
+     }
+     .BottomTimeAxis>li:nth-child(3)>p{
+        top: 434px;
+    }
+    .BottomTimeAxis>li:nth-child(4)>p{
+        top: 568px;
+    }
+     
+
+
+    /* 媒体报道 */
+    .MediaCover{
+        background: url("./img/xuxianLeft.png") left top;
+        background-size: auto auto;
+        padding-top: 4rem;
+        width: 100%;
+        overflow: hidden;
+        /* height: 1000px; */
+    }
+    .Media{
+        width: 100%;
+        overflow: hidden;
+    }
+    .Media>p{
+        width: 100%;
+        height: 6rem;
+        line-height: 6rem;
+        text-align: center;
+        font-size: 2.2rem;
+        color: #28647B;
+    }
+    .MediaList{
+        width: 100%;
+        overflow: hidden;
+        
+    }
+    .MediaList>li{
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+        background:rgba(255,255,255,1);
+        box-shadow:0px 2px 20px 0px rgba(0,0,0,0.1);
+        border-radius:15px;
+        margin-top: 30px;
+        height: 12rem;
+        position: relative;
+    }
+    .MediaList>li:nth-child(4),.MediaList>li:nth-child(5),.MediaList>li:nth-child(6){
+        display: none;
+    }
+    .MediaList>li>h3{
+        height: 40px;
+        line-height: 40px;
+        box-sizing: border-box;
+        background:linear-gradient(90deg,rgba(0,164,228,1),rgba(0,145,254,1));
+        border-radius:15px 15px 0px 0px;
+        color: #fff;
+        font-size: 1.4rem;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .MediaList>li>p{
+        line-height: 18px;
+        font-size: 1.2rem;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: left;
+        color: #28647B;
+        padding: 10px 10px 0 10px;
+    }
+    .MediaList>li>h5{
+       width: 100%;
+       box-sizing: border-box;
+       padding-right: 48px;
+       height: 40px;
+       position: absolute;
+       bottom: 0;
+    }
+
+    /* 对应每个媒体图标 */
+    .MediaList>li>h5>span{
+        display: block;
+        height: 40px;
+        padding-right: 30px;
+        line-height: 40px;
+        font-size: 12px;
+        width: 100%;
+        text-align: right;
+        color: #28647B;
+        background: url('./img/timg.png') no-repeat right center;
+        background-size: 26%;
+    }
+    .MediaList>li:nth-child(2)>h5>span{
+        background: url('./img/timg3.png') no-repeat right center;
+        background-size: 26%;
+    }
+    .MediaList>li:nth-child(3)>h5>span{
+        background: url('./img/timg1.png') no-repeat right center;
+        background-size: 26%;
+    }
+    .MediaList>li:nth-child(4)>h5>span{
+        background: url('./img/timg4.png') no-repeat right center;
+        background-size: 26%;
+    }
+    .MediaList>li:nth-child(5)>h5>span{
+        background: url('./img/timg2.png') no-repeat right center;
+        background-size: 26%;
+    }
+    .MediaList>li:nth-child(6)>h5>span{
+        background: url('./img/timg5.png') no-repeat right center;
+        background-size: 26%;
+    }
+    /* 独家战略 */
+    .ExclusiveStrategy{
+        margin-top: -12rem;
+        overflow: hidden;
+        width: 100%;
+        padding-bottom: 8rem;
+    }
+    .ExclusiveStrategy>h3,.ExclusiveStrategy>p,.ExclusiveStrategy>h4,.cooperativePartner>h3,.Subscribe>h3{
+        width: 100%;
+        text-align: center;
+        color: #003449;
+        font-size: 2.2rem;
+        height: 6rem;
+        line-height: 6rem;
+    }
+    .ExclusiveStrategy>p>img{
+       width: 28%;
+    }
+    .ExclusiveStrategy>h4{
+        color: #516E7A;
+        font-size: 12px;
+        /* height: 30px; */
+        line-height: 2.4rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+    /* 合作伙伴 */
+    .CooperativePartner{
+        margin-top: 10px;
+        width: 100%;
+        overflow: hidden;
+        background: url('./img/rightXuxian.png') no-repeat right top;
+        background-size: cover;
+    }
+    .cooperativePartner{
+        width: 100%;
+        overflow: hidden;
+    }
+    .cooperativePartner>ul{
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .cooperativePartner>ul>li{
+        width: 30%;
+        margin-left:5%;
+        height: 3rem;
+        line-height: 3rem;
+        float: left;
+        padding: 20px 0;
+    }
+    .cooperativePartner>ul>li:first-child,.cooperativePartner>ul>li:nth-child(4),.cooperativePartner>ul>li:nth-child(7),.cooperativePartner>ul>li:nth-child(10),.cooperativePartner>ul>li:nth-child(13),.cooperativePartner>ul>li:nth-child(16),.cooperativePartner>ul>li:nth-child(19),.cooperativePartner>ul>li:nth-child(22),.cooperativePartner>ul>li:nth-child(25),.cooperativePartner>ul>li:nth-child(28){
+        margin-left: 0;
+    }
+    .cooperativePartner>ul>li>img{
+        width: 80%;
+    }
+    /* 订阅我们的动态 */
+    .Subscribe{
+        width: 100%;
+        overflow: hidden;
+        background: url('./img/firstShadow.png') no-repeat left top;
+        background-size: cover;
+        background-position-x:-600px; 
+        padding-bottom: 500px;
+    }
+    .Subscribe>p{
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        background:rgba(255,255,255,0.3);
+        border-radius:10px;
+        border:1px solid rgba(0,164,228,1);
+        height: 40px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+    .Subscribe>p>input{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        border: 0;
+        background: rgba(0, 0, 0, 0);
+        font-size : 1.6rem;
+        color:rgba(0,52,73,1);
+    }
+    .Subscribe>h4{
+        width: 160px;
+        margin: 0 auto;
+        text-align: center;
+        background:rgba(0,164,228,1);
+        border-radius:10px;
+        height: 3rem;
+        line-height: 3rem;
+        margin-top: 3rem;
+        color:rgba(255,255,255,1);
+        font-size: 14px;
+        cursor: pointer;
+    }
+}

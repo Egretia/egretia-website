@@ -1,0 +1,494 @@
+/*PC端适配代码*/
+@media screen and (min-width:769px){ 
+    .bannerBJ{
+        width: 100%;
+        overflow: hidden;
+        background: url("../Product/img/navBJ.png") no-repeat;
+        background-size: 100% 90%;
+        height: 600px;
+        position: relative;
+    }
+    .Moon{
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        z-index: 10;
+    }
+    .Moon>p{
+        overflow: hidden;
+        width: 905px;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 60px;
+        background: url('./img/fours.png') no-repeat left center;
+        background-size: 100% 54px;
+    }
+    .Moon>p>span{
+        display: block;
+        width: 310px;
+        float: left;
+        text-align: left;
+    }
+    .Moon>p>span:first-child{
+        font-size: 70px;
+    }
+    /* 产品列表 */
+    .ProductLists,.EgretiaIntroduction{
+        width: 1080px;
+        overflow: hidden;
+        position: relative;
+        z-index: 5;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .EgretiaIntroduction{
+        margin-top: 100px;
+    }
+    .fatherP>h3,.EgretiaIntroduction>h3{
+        height:60px;
+        font-size:30px;
+        color:rgba(40,100,123,1);
+        line-height:60px;
+        text-align: center;
+    }
+    .ProductLists>h4{
+        margin: 0 auto;
+        width: 1080px;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    .ProductLists>h4>img{
+        width: 100%;
+    }
+    .ProductLists>ul,.EgretiaIntroduction>ul,.EgretiaIntroduction>p{
+        width: 1080px;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-top: 40px;
+    }
+    .EgretiaIntroduction>h3:last-child{
+        padding-bottom: 350px;
+        font-size: 24px;
+        padding-top: 100px;
+    }
+    .EgretiaIntroduction>p{
+        margin-top: 40px;
+        padding-bottom: 350px;
+        display: none;
+    }
+    .EgretiaIntroduction>p>span{
+        display: inline-block;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        color: #28647B;
+    }
+    .EgretiaIntroduction>p>img{
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        vertical-align: middle;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .ProductList{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+    .ProductList>p{
+        width: 50px;
+        height: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .ProductList>p>img{
+        width: 40%;
+        vertical-align: bottom;
+    }
+    .ProductList>h3{
+        width: 100%;
+        text-align: center;
+        line-height: 20px;
+        color: #6892A2;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    /* 联盟成员 */
+    .EgretiaIntroductionList{
+        width: 30%;
+        margin-left: 5%;
+        float: left;
+        overflow: hidden;
+        margin-top: 40px;
+        background:rgba(232,247,252,0.3);
+        border-radius:10px;
+        padding:30px;
+        box-sizing: border-box;
+        height: 300px;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:first-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(4),.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(7),.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(10),.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(13){
+        margin-left: 0;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(2)>h4>span:last-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(6)>h4>span:last-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(7)>h4>span:last-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(9)>h4>span:last-child{
+        display: none;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(2)>h4>span:first-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(6)>h4>span:first-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(7)>h4>span:first-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(9)>h4>span:first-child{
+        margin-left: 26%;
+    }
+    .EgretiaIntroductionList>h3{
+        width: 100%;
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+    }
+    .EgretiaIntroductionList>h3>img{
+        width: 30%;
+        vertical-align: middle;
+        float: left;
+    }
+    .EgretiaIntroductionList>h3>span{
+        color: #6892A2;
+        font-size: 24px;
+        float: left;
+        margin-left: 10%;
+    }
+    .EgretiaIntroductionList>p{
+        width: 100%;
+        line-height: 20px;
+        font-size: 12px;
+        color: #6892A2;
+        text-align: left;
+        margin-top:30px;
+        height: 120px;
+    }
+    .EgretiaIntroductionList>h4{
+        width: 100%;
+        margin-top: 30px;
+        overflow: hidden;
+    }
+    .EgretiaIntroductionList>h4>span{
+        float: left;
+        width: 48%;
+        background:rgba(0,164,229,1);
+        border-radius:10px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    .EgretiaIntroductionList>h4>span:last-child{
+        border-radius:10px;
+        border:1px solid rgba(0,164,229,1);
+        background: rgba(0, 0, 0, 0);
+        float:right;
+        color: #00A4E5;
+    }
+    /* 各种背景位置控制 */
+    .posBJ{
+        background: url("../Home/img/firstShadow.png") no-repeat left top;
+        width: 60%;
+        height: 1000px; 
+        position: absolute;
+        top: 400px;
+        z-index: 2;
+        background-size: 100% 100%;
+    }
+    .ControlF>.posBJ:nth-child(2){
+        background: url("../Home/img/xuxianLeft.png") no-repeat left top;
+        top: 900px;
+        background-size: 100% 100%;
+        z-index: 3;
+    }
+    .ControlF>.posBJ:nth-child(3){
+        background: url("../Home/img/rightShabox.png") no-repeat right top;
+        top: 1000px;
+        right: 0;
+        background-size: 100% 100%;
+    } 
+    .ControlF>.posBJ:nth-child(4){
+        background: url("../Team/img/bangeBall.png") no-repeat left top;
+        background-size: 460px 100%;
+        height: 460px;
+        top: 2100px;
+    } 
+    /* 各个球球位置 */
+    .posBall{
+        background: url("../Product/img/Ball6.png") no-repeat left top;
+        height: 200px;
+        width: 1080px;
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+    .BallF>.posBall:nth-child(1){
+        background: url("../Product/img/Ball6.png") no-repeat left top;
+        background-size: 160px;
+    }
+    .BallF>.posBall:nth-child(2){
+        background: url("../Product/img/Ball2.png") no-repeat left top;
+        background-position-x: 400px;
+        top: 270px;
+    }
+    .BallF>.posBall:nth-child(3){
+        background: url("../Product/img/Ball3.png") no-repeat left top;
+        background-size: 80px;
+        background-position-x: 280px;
+        top: 440px;
+    }
+    .BallF>.posBall:nth-child(4){
+        background: url("../Product/img/Ball_blue1.png") no-repeat left top;
+        background-size: 30px;
+        background-position-x: 660px;
+        top: 130px;
+    }
+    .BallF>.posBall:nth-child(5){
+        background: url("../Product/img/Ball_blue1.png") no-repeat left top;
+        background-position-x: 840px;
+        background-size: 80px;
+        top: 230px;
+    }
+    .BallF>.posBall:nth-child(6){
+        background: url("../Product/img/Ball5.png") no-repeat left top;
+        background-size:100px;
+        background-position-x: 960px;
+        top: 320px;
+    }
+    .BallF>.posBall:nth-child(7){
+        background: url("../Product/img/yellow_shixin.png") no-repeat left top;
+        background-size: 30px;
+        background-position-x: 840px;
+        top: 480px;
+    }
+    .BallF>.posBall:nth-child(8){
+        background: url("../Product/img/yellow_shixin.png") no-repeat left top;
+        background-position-x: 340px;
+        background-size: 16px;
+        top: 694px;
+    }
+    .BallF>.posBall:nth-child(9){
+        background: url("../Product/img/Ball_blue2.png") no-repeat left top;
+        background-size: 80px;
+        background-position-x: 1000px;
+        top: 850px;
+    }
+    .BallF>.posBall:nth-child(10){
+        background: url("../Product/img/yellow_shixin.png") no-repeat left top;
+        background-size: 40px;
+        background-position-x: 0;
+        top: 1380px;
+    }
+    .BallF>.posBall:nth-child(11){
+        background: url("../Product/img/Ball_yellow3.png") no-repeat left top;
+        background-position-x: 950px;
+        background-size: 130px;
+        top: 2100px;
+    }
+}
+
+
+/*移动端适配代码*/
+@media screen and (max-width:768px){ 
+    .bannerBJ{
+        width: 100%;
+        overflow: hidden;
+        background: url("./img/navBJ.png") no-repeat;
+        background-size: contain;
+        height: 300px;
+        position: relative;
+    }
+    .Moon{
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 46%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        z-index: 10;
+    }
+    .Moon>p{
+        overflow: hidden;
+        width: 100%;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 3rem;
+        background: url('./img/fours.png') no-repeat center center;
+        background-size: 100% 3rem;
+    }
+    .Moon>p>span{
+        display: block;
+        width:50%;
+        float: left;
+        text-align: left;
+        box-sizing: border-box;
+        padding-left: 2%;
+    }
+    .Moon>p>span:first-child{
+        font-size:3.4rem;
+        padding-right: 2%;
+        box-sizing: border-box;
+        text-align: right;
+        padding-left: 0;
+    }
+    /* 产品列表 */
+    .ProductLists,.EgretiaIntroduction{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        z-index: 5;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .EgretiaIntroduction{
+        margin-top: 50px;
+    }
+    .fatherP>h3,.EgretiaIntroduction>h3{
+        height:60px;
+        font-size:30px;
+        color:rgba(40,100,123,1);
+        line-height:60px;
+        text-align: center;
+    }
+    .ProductLists>h4{
+        margin: 0 auto;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .ProductLists>h4>img{
+        width: 100%;
+    }
+    .ProductLists>ul,.EgretiaIntroduction>ul,.EgretiaIntroduction>p{
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .EgretiaIntroduction>h3:last-child{
+        padding-bottom: 350px;
+        font-size: 24px;
+        padding-top: 60px;
+        height: 200px;
+    }
+    .EgretiaIntroduction>p{
+        margin-top: 20px;
+        padding-bottom: 350px;
+        display: none;
+    }
+    .EgretiaIntroduction>p>span{
+        display: inline-block;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        color: #28647B;
+    }
+    .EgretiaIntroduction>p>img{
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        vertical-align: middle;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .ProductList{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .ProductList>p{
+        width: 50px;
+        height: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .ProductList>p>img{
+        width: 40%;
+        vertical-align: bottom;
+    }
+    .ProductList>h3{
+        width: 100%;
+        text-align: center;
+        line-height: 20px;
+        color: #6892A2;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+    /* Egretia入门 */
+    .EgretiaIntroductionList{
+        width: 100%;
+        float: left;
+        overflow: hidden;
+        margin-top: 40px;
+        background:rgba(232,247,252,0.3);
+        border-radius:10px;
+        padding:30px;
+        box-sizing: border-box;
+        height: 31rem;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(2)>h4>span:last-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(6)>h4>span:last-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(7)>h4>span:last-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(9)>h4>span:last-child{
+        display: none;
+    }
+    .EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(2)>h4>span:first-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(6)>h4>span:first-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(7)>h4>span:first-child,.EgretiaIntroduction>ul>.EgretiaIntroductionList:nth-child(9)>h4>span:first-child{
+        margin-left: 26%;
+    }
+    .EgretiaIntroductionList>h3{
+        width: 100%;
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+    }
+    .EgretiaIntroductionList>h3>img{
+        width: 30%;
+        vertical-align: middle;
+        float: left;
+    }
+    .EgretiaIntroductionList>h3>span{
+        color: #6892A2;
+        font-size: 24px;
+        float: left;
+        margin-left: 8%;
+    }
+    .EgretiaIntroductionList>p{
+        width: 100%;
+        line-height: 20px;
+        font-size: 12px;
+        color: #6892A2;
+        text-align: center;
+        margin-top:30px;
+        height: 13rem;
+        text-align: left;
+    }
+    .EgretiaIntroductionList>h4{
+        width: 100%;
+        margin-top: 30px;
+        overflow: hidden;
+    }
+    .EgretiaIntroductionList>h4>span{
+        float: left;
+        width: 48%;
+        background:rgba(0,164,229,1);
+        border-radius:10px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        box-sizing: border-box;
+        font-size: 1.4rem;
+    }
+    .EgretiaIntroductionList>h4>span:last-child{
+        border-radius:10px;
+        border:1px solid rgba(0,164,229,1);
+        background: rgba(0, 0, 0, 0);
+        float:right;
+        color: #00A4E5;
+    }
+}
